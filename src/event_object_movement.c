@@ -1773,13 +1773,13 @@ static u8 LoadDynamicFollowerPalette(u16 species, u8 form, bool8 shiny) {
     if ((paletteNum = IndexOfSpritePaletteTag(spritePalette->tag)) == 0xFF) { // Load compressed palette
       LoadCompressedSpritePalette(spritePalette);
       paletteNum = IndexOfSpritePaletteTag(spritePalette->tag); // Tag is always present
-      if (species == SPECIES_AMPHAROS) { // palette should be light-blended TODO: Add more glowing pokemon
-        // CHARIZARD LINE ? CHINCHOU LANTERN FLAAFY MAREEP UMBREON VOLBEAT ?
-        u16 * palette = &gPlttBufferUnfaded[(paletteNum+16)*16];
-        palette[0] |= 0x8000;
-        if (palette[0] & 0x4000) // If color 15 is blended, use it as the alternate color
-          palette[15] |= 0x8000;
-      }
+    //   if (species == SPECIES_AMPHAROS) { // palette should be light-blended TODO: Add more glowing pokemon
+    //     // CHARIZARD LINE ? CHINCHOU LANTERN FLAAFY MAREEP UMBREON VOLBEAT ?
+    //     u16 * palette = &gPlttBufferUnfaded[(paletteNum+16)*16];
+    //     palette[0] |= 0x8000;
+    //     if (palette[0] & 0x4000) // If color 15 is blended, use it as the alternate color
+    //       palette[15] |= 0x8000;
+    //   }
       UpdateSpritePaletteWithWeather(paletteNum, FALSE);
     }
     return paletteNum;
@@ -2227,9 +2227,10 @@ void UpdateLightSprite(struct Sprite *sprite) {
             if (GetSpritePaletteTagByPaletteNum(sprite->oam.paletteNum) == OBJ_EVENT_PAL_TAG_LIGHT_2)
                 LoadSpritePaletteInSlot(&sObjectEventSpritePalettes[FindObjectEventPaletteIndexByTag(OBJ_EVENT_PAL_TAG_LIGHT)], sprite->oam.paletteNum);
         } else if ((sprite->invisible = gTimeUpdateCounter & 1)) {
-            Weather_SetBlendCoeffs(12, 12);
-            if (GetSpritePaletteTagByPaletteNum(sprite->oam.paletteNum) == OBJ_EVENT_PAL_TAG_LIGHT)
-                LoadSpritePaletteInSlot(&sObjectEventSpritePalettes[FindObjectEventPaletteIndexByTag(OBJ_EVENT_PAL_TAG_LIGHT_2)], sprite->oam.paletteNum);
+            Weather_SetBlendCoeffs(7, 12); // As long as the second coefficient stays 12, shadows will not change
+            sprite->invisible = FALSE;
+            if (GetSpritePaletteTagByPaletteNum(sprite->oam.paletteNum) == OBJ_EVENT_PAL_TAG_LIGHT_2)
+                LoadSpritePaletteInSlot(&sObjectEventSpritePalettes[FindObjectEventPaletteIndexByTag(OBJ_EVENT_PAL_TAG_LIGHT)], sprite->oam.paletteNum);
         }
         break;
     case 1 ... 2:
