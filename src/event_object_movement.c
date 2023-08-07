@@ -2234,8 +2234,8 @@ void UpdateLightSprite(struct Sprite *sprite) {
         }
         break;
     case 1 ... 2:
-        Weather_SetBlendCoeffs(12, 12);
-        sprite->invisible = FALSE;
+        // Weather_SetBlendCoeffs(12, 12);
+        sprite->invisible = TRUE;
         break;
     }
 }
