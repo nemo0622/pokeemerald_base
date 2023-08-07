@@ -780,6 +780,9 @@ const u32 gObjectEventPic_Groudon[] = INCBIN_U32("graphics/object_events/pics/po
 const u32 gObjectEventPic_Rayquaza[] = INCBIN_U32("graphics/object_events/pics/pokemon/rayquaza.4bpp");
 const u32 gObjectEventPic_Jirachi[] = INCBIN_U32("graphics/object_events/pics/pokemon/jirachi.4bpp");
 const u32 gObjectEventPic_Deoxys[] = INCBIN_U32("graphics/object_events/pics/pokemon/deoxys.4bpp");
+const u32 gObjectEventPic_Null[] = INCBIN_U32("graphics/object_events/pics/pokemon/null.4bpp");
+
+// FOLLOWERS END HERE - followers are above this line!
 
 const u32 gObjectEventPic_DeoxysOld[] = INCBIN_U32("graphics/object_events/pics/pokemon/deoxys_old.4bpp");
 const u32 gObjectEventPic_MewOld[] = INCBIN_U32("graphics/object_events/pics/pokemon/mew_old.4bpp");

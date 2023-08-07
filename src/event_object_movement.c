@@ -1761,7 +1761,7 @@ static const struct ObjectEventGraphicsInfo * SpeciesToGraphicsInfo(u16 species,
       graphicsInfo = &gPokemonObjectGraphics[species];
       break;
   }
-  return graphicsInfo->tileTag == 0xFFFF ? graphicsInfo : &gPokemonObjectGraphics[SPECIES_PORYGON]; // avoid OOB access
+  return graphicsInfo->tileTag == 0xFFFF ? graphicsInfo : &gPokemonObjectGraphics[SPECIES_NULL]; // avoid OOB access
 }
 
 // Find, or load, the palette for the specified pokemon info
