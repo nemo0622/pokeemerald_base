@@ -2048,6 +2048,13 @@ $(OBJEVENTGFXDIR)/pokemon/ambipom.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/mismagius.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
+$(OBJEVENTGFXDIR)/pokemon/honchkrow.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/pokemon/chingling.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+
 
 
 $(MISCGFXDIR)/emotes.4bpp: %.4bpp: %.png

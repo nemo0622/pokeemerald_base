@@ -803,6 +803,8 @@ const u32 gObjectEventPic_Buizel[] = INCBIN_U32("graphics/object_events/pics/pok
 const u32 gObjectEventPic_Floatzel[] = INCBIN_U32("graphics/object_events/pics/pokemon/floatzel.4bpp");
 const u32 gObjectEventPic_Ambipom[] = INCBIN_U32("graphics/object_events/pics/pokemon/ambipom.4bpp");
 const u32 gObjectEventPic_Mismagius[] = INCBIN_U32("graphics/object_events/pics/pokemon/mismagius.4bpp");
+const u32 gObjectEventPic_Honchkrow[] = INCBIN_U32("graphics/object_events/pics/pokemon/honchkrow.4bpp");
+const u32 gObjectEventPic_Chingling[] = INCBIN_U32("graphics/object_events/pics/pokemon/chingling.4bpp");
 
 const u32 gObjectEventPic_Null[] = INCBIN_U32("graphics/object_events/pics/pokemon/null.4bpp");
 

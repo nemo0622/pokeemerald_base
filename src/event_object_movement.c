@@ -1850,9 +1850,25 @@ static u8 GetOverworldCastformForm(void) {
     return CASTFORM_NORMAL;
 }
 
+bool8 AllowFollowerGFX(u16 speciesNum)
+{
+    if(speciesNum <= 386) { return TRUE; }
+    else { return FALSE; }
+}
+
+struct Pokemon * GetFirstValidFollowMon(void) { // Return address of first valid follower mon in party
+  u8 i;
+  for (i=0; i<PARTY_SIZE;i++) {
+    if (gPlayerParty[i].hp > 0 && !(gPlayerParty[i].box.isEgg || gPlayerParty[i].box.isBadEgg) && AllowFollowerGFX(GetMonData(&gPlayerParty[i], MON_DATA_SPECIES)))
+      return &gPlayerParty[i];
+  }
+  return NULL;
+}
+
 // Retrieve graphic information about the following pokemon, if any
 static bool8 GetFollowerInfo(u16 *species, u8 *form, u8 *shiny) {
-    struct Pokemon *mon = GetFirstLiveMon();
+    struct Pokemon *mon = GetFirstValidFollowMon();
+
     if (!mon) {
         *species = SPECIES_NONE;
         *form = 0;
