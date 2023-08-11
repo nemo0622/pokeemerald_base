@@ -859,6 +859,23 @@ const u32 gObjectEventPic_Magnezone[] = INCBIN_U32("graphics/object_events/pics/
 const u32 gObjectEventPic_Lickilicky[] = INCBIN_U32("graphics/object_events/pics/pokemon/lickilicky.4bpp");
 const u32 gObjectEventPic_Rhyperior[] = INCBIN_U32("graphics/object_events/pics/pokemon/rhyperior.4bpp");
 const u32 gObjectEventPic_Tangrowth[] = INCBIN_U32("graphics/object_events/pics/pokemon/tangrowth.4bpp");
+const u32 gObjectEventPic_Electivire[] = INCBIN_U32("graphics/object_events/pics/pokemon/electivire.4bpp");
+const u32 gObjectEventPic_Magmortar[] = INCBIN_U32("graphics/object_events/pics/pokemon/magmortar.4bpp");
+const u32 gObjectEventPic_Togekiss[] = INCBIN_U32("graphics/object_events/pics/pokemon/togekiss.4bpp");
+const u32 gObjectEventPic_Yanmega[] = INCBIN_U32("graphics/object_events/pics/pokemon/yanmega.4bpp");
+const u32 gObjectEventPic_Leafeon[] = INCBIN_U32("graphics/object_events/pics/pokemon/leafeon.4bpp");
+const u32 gObjectEventPic_Glaceon[] = INCBIN_U32("graphics/object_events/pics/pokemon/glaceon.4bpp");
+const u32 gObjectEventPic_Gliscor[] = INCBIN_U32("graphics/object_events/pics/pokemon/gliscor.4bpp");
+const u32 gObjectEventPic_Mamoswine[] = INCBIN_U32("graphics/object_events/pics/pokemon/mamoswine.4bpp");
+const u32 gObjectEventPic_Porygon_Z[] = INCBIN_U32("graphics/object_events/pics/pokemon/porygon_z.4bpp");
+const u32 gObjectEventPic_Gallade[] = INCBIN_U32("graphics/object_events/pics/pokemon/gallade.4bpp");
+const u32 gObjectEventPic_Probopass[] = INCBIN_U32("graphics/object_events/pics/pokemon/probopass.4bpp");
+const u32 gObjectEventPic_Dusknoir[] = INCBIN_U32("graphics/object_events/pics/pokemon/dusknoir.4bpp");
+const u32 gObjectEventPic_Froslass[] = INCBIN_U32("graphics/object_events/pics/pokemon/froslass.4bpp");
+const u32 gObjectEventPic_Rotom[] = INCBIN_U32("graphics/object_events/pics/pokemon/rotom.4bpp");
+const u32 gObjectEventPic_Azelf[] = INCBIN_U32("graphics/object_events/pics/pokemon/azelf.4bpp");
+const u32 gObjectEventPic_Mesprit[] = INCBIN_U32("graphics/object_events/pics/pokemon/mesprit.4bpp");
+const u32 gObjectEventPic_Uxie[] = INCBIN_U32("graphics/object_events/pics/pokemon/uxie.4bpp");
 
 const u32 gObjectEventPic_Null[] = INCBIN_U32("graphics/object_events/pics/pokemon/null.4bpp");
 
