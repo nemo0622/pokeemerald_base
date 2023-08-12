@@ -1854,8 +1854,15 @@ bool8 AllowFollowerGFX(u16 speciesNum)
 {
     if(speciesNum <= 386) { return TRUE; } // Allows all Pokemon gens 1-3 to follow
     /* Add new followers here! For now, allows all Sinnoh pokemon */ 
-    else if(speciesNum <= 493 || speciesNum > 906) // is sinnoh OR is a unique form 
-    { return TRUE; }
+    else if(speciesNum <= 493) // if Sinnoh Pokemon
+    { 
+        // Excluded species below (Dialga, Palkia, Regigigas, Giratina, Arceus)
+        if(speciesNum == 483 || speciesNum == 484 || speciesNum == 486 || speciesNum == 487
+         || speciesNum == 493)
+         {return FALSE;}
+        
+        return TRUE; // default TRUE response
+    }
     else { return FALSE; }
 }
 

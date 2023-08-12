@@ -19,6 +19,11 @@ Note: All credit for this base goes to these creators!! I just did the merging a
     - Lighting! Day/Night system, shadows under all NPCs, and shining lamp posts.
     - Key item wheel, allowing up to 4 items to be registered.
 
-## Future of this project
+## Known Issues & Future of this project
+
+- Most Pokémon with multiple forms only support a single form in the overworld
+    - Ex: All rotom forms only show default rotom, all Burmy forms appear green, etc.
+- "Large" Pokémon sprites are currently not supported
+    - Pokémon such as Dialga, Palkia, Giratina, and Arceus cannot follow you
 
 As of right now, I plan to continue adding more following Pokémon sprites over time. I will also make a few minor changes which will be added to the list above.

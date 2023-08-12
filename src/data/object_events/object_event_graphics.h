@@ -873,9 +873,16 @@ const u32 gObjectEventPic_Probopass[] = INCBIN_U32("graphics/object_events/pics/
 const u32 gObjectEventPic_Dusknoir[] = INCBIN_U32("graphics/object_events/pics/pokemon/dusknoir.4bpp");
 const u32 gObjectEventPic_Froslass[] = INCBIN_U32("graphics/object_events/pics/pokemon/froslass.4bpp");
 const u32 gObjectEventPic_Rotom[] = INCBIN_U32("graphics/object_events/pics/pokemon/rotom.4bpp");
+const u32 gObjectEventPic_Rotom_Heat[] = INCBIN_U32("graphics/object_events/pics/pokemon/rotom_heat.4bpp");
 const u32 gObjectEventPic_Azelf[] = INCBIN_U32("graphics/object_events/pics/pokemon/azelf.4bpp");
 const u32 gObjectEventPic_Mesprit[] = INCBIN_U32("graphics/object_events/pics/pokemon/mesprit.4bpp");
 const u32 gObjectEventPic_Uxie[] = INCBIN_U32("graphics/object_events/pics/pokemon/uxie.4bpp");
+const u32 gObjectEventPic_Heatran[] = INCBIN_U32("graphics/object_events/pics/pokemon/heatran.4bpp");
+const u32 gObjectEventPic_Cresselia[] = INCBIN_U32("graphics/object_events/pics/pokemon/cresselia.4bpp");
+const u32 gObjectEventPic_Manaphy[] = INCBIN_U32("graphics/object_events/pics/pokemon/manaphy.4bpp");
+const u32 gObjectEventPic_Phione[] = INCBIN_U32("graphics/object_events/pics/pokemon/phione.4bpp");
+const u32 gObjectEventPic_Darkrai[] = INCBIN_U32("graphics/object_events/pics/pokemon/darkrai.4bpp");
+const u32 gObjectEventPic_Shaymin[] = INCBIN_U32("graphics/object_events/pics/pokemon/shaymin.4bpp");
 
 const u32 gObjectEventPic_Null[] = INCBIN_U32("graphics/object_events/pics/pokemon/null.4bpp");
 
