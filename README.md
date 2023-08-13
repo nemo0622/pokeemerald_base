@@ -25,6 +25,7 @@ Note: All credit for this base goes to these creators!! I just did the merging a
     - Ex: All rotom forms only show default rotom, all Burmy forms appear green, etc.
 - "Large" Pokémon sprites are currently not supported
     - Pokémon such as Dialga, Palkia, Giratina, and Arceus cannot follow you
+- Some of the overworld sprites need to be remade (Sawk and Throh, for example, look ROUGH)
 
 CREDITS:
 - RHH Team and aarant on Github (linked above) for many included features
