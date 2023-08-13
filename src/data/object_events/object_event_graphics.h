@@ -897,6 +897,14 @@ const u32 gObjectEventPic_Watchog[] = INCBIN_U32("graphics/object_events/pics/po
 const u32 gObjectEventPic_Lillipup[] = INCBIN_U32("graphics/object_events/pics/pokemon/lillipup.4bpp");
 const u32 gObjectEventPic_Herdier[] = INCBIN_U32("graphics/object_events/pics/pokemon/herdier.4bpp");
 const u32 gObjectEventPic_Stoutland[] = INCBIN_U32("graphics/object_events/pics/pokemon/stoutland.4bpp");
+const u32 gObjectEventPic_Purrloin[] = INCBIN_U32("graphics/object_events/pics/pokemon/purrloin.4bpp");
+const u32 gObjectEventPic_Liepard[] = INCBIN_U32("graphics/object_events/pics/pokemon/liepard.4bpp");
+const u32 gObjectEventPic_Pansage[] = INCBIN_U32("graphics/object_events/pics/pokemon/pansage.4bpp");
+const u32 gObjectEventPic_Pansear[] = INCBIN_U32("graphics/object_events/pics/pokemon/pansear.4bpp");
+const u32 gObjectEventPic_Panpour[] = INCBIN_U32("graphics/object_events/pics/pokemon/panpour.4bpp");
+const u32 gObjectEventPic_Simisage[] = INCBIN_U32("graphics/object_events/pics/pokemon/simisage.4bpp");
+const u32 gObjectEventPic_Simisear[] = INCBIN_U32("graphics/object_events/pics/pokemon/simisear.4bpp");
+const u32 gObjectEventPic_Simipour[] = INCBIN_U32("graphics/object_events/pics/pokemon/simipour.4bpp");
 
 const u32 gObjectEventPic_Null[] = INCBIN_U32("graphics/object_events/pics/pokemon/null.4bpp");
 
