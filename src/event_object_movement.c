@@ -1863,6 +1863,14 @@ bool8 AllowFollowerGFX(u16 speciesNum)
         
         return TRUE; // default TRUE response
     }
+    else if(speciesNum <= 649) // if Unova Pokemon
+    {
+        // *INCLUDED* species below!
+        if((speciesNum >= 495 && speciesNum <= 508))
+        { return TRUE; }
+
+        return FALSE; // default FALSE response (because most Unova mons dont have followers)
+    }
     else { return FALSE; }
 }
 
