@@ -21,6 +21,7 @@ Note: All credit for this base goes to these creators!! I just did the merging a
 
 ## Known Issues, Credits, & Future of this project
 
+ISSUES:
 - Most Pokémon with multiple forms only support a single form in the overworld
     - Ex: All rotom forms only show default rotom, all Burmy forms appear green, etc.
 - "Large" Pokémon sprites are currently not supported
@@ -31,4 +32,7 @@ CREDITS:
 - RHH Team and aarant on Github (linked above) for many included features
 - Generation 5 Overworld Sprites: [Pokegirl4ever](https://www.deviantart.com/pokegirl4ever/art/Completed-pokemon-Unova-overworlds-212553542) on DeviantArt
 
-As of right now, I plan to continue adding more following Pokémon sprites over time. I will also make a few minor changes which will be added to the list above.
+FUTURE PLANS:
+- More Follower Pokémon
+- Improved follower sprites for a few (Archeops please oh my god)
+- More minor changes/additions to improve this as a base
