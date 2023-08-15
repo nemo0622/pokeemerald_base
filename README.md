@@ -19,7 +19,7 @@ Note: All credit for this base goes to these creators!! I just did the merging a
     - Lighting! Day/Night system, shadows under all NPCs, and shining lamp posts.
     - Key item wheel, allowing up to 4 items to be registered.
 
-## Known Issues, Credits, & Future of this project
+## Known Issues, Future Plans, & Credits!
 
 ISSUES:
 - Most Pokémon with multiple forms only support a single form in the overworld
@@ -28,11 +28,14 @@ ISSUES:
     - Pokémon such as Dialga, Palkia, Giratina, and Arceus cannot follow you
 - Some of the overworld sprites need to be remade (Sawk and Throh, for example, look ROUGH)
 
-CREDITS:
-- RHH Team and aarant on Github (linked above) for many included features
-- Generation 5 Overworld Sprites: [Pokegirl4ever](https://www.deviantart.com/pokegirl4ever/art/Completed-pokemon-Unova-overworlds-212553542) on DeviantArt
-
 FUTURE PLANS:
 - More Follower Pokémon
 - Improved follower sprites for a few (Archeops please oh my god)
 - More minor changes/additions to improve this as a base
+
+CREDITS:
+- RHH Team for the pokeemerald Expansion project
+- aarant on Github for the base following Pokémon, lighting, and key item wheel code
+- Generation 5 Overworld Sprites: 
+    - Most compiled by [Pokegirl4ever](https://www.deviantart.com/pokegirl4ever/art/Completed-pokemon-Unova-overworlds-212553542) on DeviantArt
+    - Emolga by [Wolfang62](https://www.deviantart.com/wolfang62/art/Emolga-Sprite-Overworld-833896154) on DeviantArt
