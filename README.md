@@ -25,12 +25,12 @@ ISSUES:
 - Most Pokémon with multiple forms only support a single form in the overworld
     - Ex: All rotom forms only show default rotom, all Burmy forms appear green, etc.
 - "Large" Pokémon sprites are currently not supported
-    - Pokémon such as Dialga, Palkia, Giratina, and Arceus cannot follow you
-- Some of the overworld sprites need to be remade (Sawk and Throh, for example, look ROUGH)
+    - Current Exclusions: Dialga, Palkia, Giratina, Arceus, Reshiram, Zekrom, Kyurem
+- Some of the overworld sprites need to be improved (Sawk and Throh, for example, look ROUGH)
 
 FUTURE PLANS:
 - More Follower Pokémon
-- Improved follower sprites for a few (Archeops please oh my god)
+- Improved follower sprites for a few (Archeops and Golurk please oh my god)
 - More minor changes/additions to improve this as a base
 
 CREDITS:
@@ -39,3 +39,4 @@ CREDITS:
 - Generation 5 Overworld Sprites: 
     - Most compiled by [Pokegirl4ever](https://www.deviantart.com/pokegirl4ever/art/Completed-pokemon-Unova-overworlds-212553542) on DeviantArt
     - Emolga by [Wolfang62](https://www.deviantart.com/wolfang62/art/Emolga-Sprite-Overworld-833896154) on DeviantArt
+    - Larvesta + Volcarona by Princess Phoenix on DeviantArt
