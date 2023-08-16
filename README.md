@@ -26,6 +26,7 @@ ISSUES:
     - Ex: All rotom forms only show default rotom, all Burmy forms appear green, etc.
 - "Large" Pokémon sprites are currently not supported
     - Current Exclusions: Dialga, Palkia, Giratina, Arceus, Reshiram, Zekrom, Kyurem
+- Only Vivillon's "Icy Snow" form is supported! All other forms load wrong palettes right now
 - Some of the overworld sprites need to be improved (Sawk and Throh, for example, look ROUGH)
 
 FUTURE PLANS:
@@ -40,3 +41,5 @@ CREDITS:
     - Most compiled by [Pokegirl4ever](https://www.deviantart.com/pokegirl4ever/art/Completed-pokemon-Unova-overworlds-212553542) on DeviantArt
     - Emolga by [Wolfang62](https://www.deviantart.com/wolfang62/art/Emolga-Sprite-Overworld-833896154) on DeviantArt
     - Larvesta + Volcarona by Princess Phoenix on DeviantArt
+- Generation 6 Overworld Sprites:
+    - [Princess Phoenix](https://www.deviantart.com/princess-phoenix/art/Gen-6-Kalos-Pokemon-Overworld-Sprites-525954409) on DeviantArt

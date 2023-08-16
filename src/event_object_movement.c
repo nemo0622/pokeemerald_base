@@ -1871,6 +1871,10 @@ bool8 AllowFollowerGFX(u16 speciesNum)
 
         return TRUE; // default TRUE response
     }
+    else if(speciesNum <= 721) // if Kalos Pokemon
+    {
+        return TRUE; // default TRUE response (i think all pokemon work?)
+    }
     else { return FALSE; }
 }
 
