@@ -24,9 +24,10 @@ Note: All credit for this base goes to these creators!! I just did the merging a
 ISSUES:
 - Most Pokémon with multiple forms only support a single form in the overworld
     - Ex: All rotom forms only show default rotom, all Burmy forms appear green, etc.
+    - Only Vivillon's "Icy Snow" form is supported! All other forms load wrong palettes right now
+    - Both male and female Pyroar's give male followers
 - "Large" Pokémon sprites are currently not supported
     - Current Exclusions: Dialga, Palkia, Giratina, Arceus, Reshiram, Zekrom, Kyurem
-- Only Vivillon's "Icy Snow" form is supported! All other forms load wrong palettes right now
 - Some of the overworld sprites need to be improved (Sawk and Throh, for example, look ROUGH)
 
 FUTURE PLANS:
