@@ -1875,6 +1875,11 @@ bool8 AllowFollowerGFX(u16 speciesNum)
     {
         return TRUE; // default TRUE response (i think all pokemon work?)
     }
+    else if(speciesNum <= 809) // if Alola Pokemon
+    {
+        return TRUE;
+        // NOTE:: I need to somehow get Alolan forms working
+    }
     else { return FALSE; }
 }
 

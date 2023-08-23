@@ -31,6 +31,7 @@ ISSUES:
 - Some of the overworld sprites need to be improved (Sawk and Throh, for example, look ROUGH)
 
 FUTURE PLANS:
+- MAKING FORMS WORK! I really want all my Oricorios and Alolan forms to work lmao
 - More Follower Pokémon
 - Improved follower sprites for a few (Archeops and Golurk please oh my god)
 - More minor changes/additions to improve this as a base
@@ -44,3 +45,5 @@ CREDITS:
     - Larvesta + Volcarona by Princess Phoenix on DeviantArt
 - Generation 6 Overworld Sprites:
     - [Princess Phoenix](https://www.deviantart.com/princess-phoenix/art/Gen-6-Kalos-Pokemon-Overworld-Sprites-525954409) on DeviantArt
+- Generation 7 Overworld Sprites:
+    - [Larryturbo](https://www.deviantart.com/larryturbo/art/Gen-7-Alola-Overworld-Sprites-805455576) on DeviantArt
