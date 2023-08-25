@@ -15,9 +15,12 @@ Note: All credit for this base goes to these creators!! I just did the merging a
     - Data for all Pokémon up to Generation 8 (including Hisuian Forms!)
     - Much, MUCH more! Please check pokeemerald-expansion itself for all details/documentation
 - [aarant's branches](https://github.com/aarant/pokeemerald):
-    - Following Pokémon in the overworld! Currently supports all Pokémon from Generations 1-3, with other Pokémon currently showing as invisible.
+    - Following Pokémon in the overworld! Currently supports almost all Pokémon from Generations 1-7, plus Alolan, Galarian, and Hisuian forms/evolutions of Pokémon!
+        - Only Generations 1-3 were in original build - all further followers added by me, and created by the artists credited below! Please go support them!
     - Lighting! Day/Night system, shadows under all NPCs, and shining lamp posts.
     - Key item wheel, allowing up to 4 items to be registered.
+- Better Reflection System
+- Press B to move arrow to "Run" option
 
 ## Known Issues, Future Plans, & Credits!
 
