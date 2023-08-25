@@ -1878,7 +1878,20 @@ bool8 AllowFollowerGFX(u16 speciesNum)
     else if(speciesNum <= 809) // if Alola Pokemon
     {
         return TRUE;
-        // NOTE:: I need to somehow get Alolan forms working
+    }
+    // else if(speciesNum <= 905) // if Galar or Hisui Pokemon
+    // {
+    //     return TRUE;
+    // }
+    else if((speciesNum >= 957 && speciesNum <= 1009) || speciesNum == 862
+     || speciesNum == 863 || speciesNum == 864 || speciesNum == 865
+     || speciesNum == 866 || speciesNum == 867 || speciesNum == 899
+     || speciesNum == 900 || speciesNum == 901 || speciesNum == 902 
+     || speciesNum == 903 || speciesNum == 904) // Alolan, Galarian, and Hisuian forms (+ evolutions)
+    {
+        if(speciesNum == 973) { return FALSE; }
+
+        return TRUE;
     }
     else { return FALSE; }
 }
@@ -1903,7 +1916,8 @@ static bool8 GetFollowerInfo(u16 *species, u8 *form, u8 *shiny) {
         return FALSE;
     }
     *species = GetMonData(mon, MON_DATA_SPECIES);
-    *shiny = IsMonShiny(mon);
+    // *shiny = IsMonShiny(mon);
+    *shiny = 0; // just not gonna support shiny followers for now lmao sorry
     *form = 0; // default
     switch (*species)
     {

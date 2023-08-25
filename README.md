@@ -26,12 +26,13 @@ ISSUES:
     - Ex: All rotom forms only show default rotom, all Burmy forms appear green, etc.
     - Only Vivillon's "Icy Snow" form is supported! All other forms load wrong palettes right now
     - Both male and female Pyroar's give male followers
+    - NOTE: Alolan/Galarian/Hisuian forms *DO* work!!
 - "Large" Pokémon sprites are currently not supported
     - Current Exclusions: Dialga, Palkia, Giratina, Arceus, Reshiram, Zekrom, Kyurem
 - Some of the overworld sprites need to be improved (Sawk and Throh, for example, look ROUGH)
 
 FUTURE PLANS:
-- MAKING FORMS WORK! I really want all my Oricorios and Alolan forms to work lmao
+- MAKING FORMS WORK! I really want all my Oricorios to work lmao
 - More Follower Pokémon
 - Improved follower sprites for a few (Archeops and Golurk please oh my god)
 - More minor changes/additions to improve this as a base
@@ -47,3 +48,11 @@ CREDITS:
     - [Princess Phoenix](https://www.deviantart.com/princess-phoenix/art/Gen-6-Kalos-Pokemon-Overworld-Sprites-525954409) on DeviantArt
 - Generation 7 Overworld Sprites:
     - [Larryturbo](https://www.deviantart.com/larryturbo/art/Gen-7-Alola-Overworld-Sprites-805455576) on DeviantArt
+- Generation 8 Overworld Sprites:
+    - Galarian sprites by [Lasse00](https://www.deviantart.com/lasse00/art/Hgss-Galar-Pokemon-Overworls-Sprites-912208276)
+    - Hisuian sprites compiled by [DarkusShadow](https://www.deviantart.com/darkusshadow/art/Hgss-Hisuian-Pokemon-Overworld-Sprites-908984387) 
+        - Sliggoo, Goodra, Avalugg, and Decidueye by princess-phoenix
+        - Basculegion, Braviary, and Growlithe by Ezerart
+        - Samurott by Wolfang62
+        - Wyrdeer by Anarlaurendil and Lasse00
+        - Others by DarkusShadow
