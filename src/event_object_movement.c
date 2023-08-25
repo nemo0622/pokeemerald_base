@@ -1879,15 +1879,11 @@ bool8 AllowFollowerGFX(u16 speciesNum)
     {
         return TRUE;
     }
-    // else if(speciesNum <= 905) // if Galar or Hisui Pokemon
-    // {
-    //     return TRUE;
-    // }
-    else if((speciesNum >= 957 && speciesNum <= 1009) || speciesNum == 862
-     || speciesNum == 863 || speciesNum == 864 || speciesNum == 865
-     || speciesNum == 866 || speciesNum == 867 || speciesNum == 899
-     || speciesNum == 900 || speciesNum == 901 || speciesNum == 902 
-     || speciesNum == 903 || speciesNum == 904) // Alolan, Galarian, and Hisuian forms (+ evolutions)
+    else if(speciesNum <= 905) // if Galar or Hisui Pokemon
+    {
+        return TRUE;
+    }
+    else if((speciesNum >= 957 && speciesNum <= 1009)) // Alolan, Galarian, and Hisuian forms
     {
         if(speciesNum == 973) { return FALSE; }
 
