@@ -1291,6 +1291,27 @@ const u32 gObjectEventPic_Flapple[] = INCBIN_U32("graphics/object_events/pics/po
 const u32 gObjectEventPic_Appletun[] = INCBIN_U32("graphics/object_events/pics/pokemon/appletun.4bpp");
 const u32 gObjectEventPic_Silicobra[] = INCBIN_U32("graphics/object_events/pics/pokemon/silicobra.4bpp");
 const u32 gObjectEventPic_Sandaconda[] = INCBIN_U32("graphics/object_events/pics/pokemon/sandaconda.4bpp");
+const u32 gObjectEventPic_Cramorant[] = INCBIN_U32("graphics/object_events/pics/pokemon/cramorant.4bpp");
+const u32 gObjectEventPic_Arrokuda[] = INCBIN_U32("graphics/object_events/pics/pokemon/arrokuda.4bpp");
+const u32 gObjectEventPic_Barraskewda[] = INCBIN_U32("graphics/object_events/pics/pokemon/barraskewda.4bpp");
+const u32 gObjectEventPic_Toxel[] = INCBIN_U32("graphics/object_events/pics/pokemon/toxel.4bpp");
+const u32 gObjectEventPic_Toxtricity[] = INCBIN_U32("graphics/object_events/pics/pokemon/toxtricity.4bpp");
+const u32 gObjectEventPic_Sizzlipede[] = INCBIN_U32("graphics/object_events/pics/pokemon/sizzlipede.4bpp");
+const u32 gObjectEventPic_Centiskorch[] = INCBIN_U32("graphics/object_events/pics/pokemon/centiskorch.4bpp");
+const u32 gObjectEventPic_Clobbopus[] = INCBIN_U32("graphics/object_events/pics/pokemon/clobbopus.4bpp");
+const u32 gObjectEventPic_Grapploct[] = INCBIN_U32("graphics/object_events/pics/pokemon/grapploct.4bpp");
+const u32 gObjectEventPic_Sinistea[] = INCBIN_U32("graphics/object_events/pics/pokemon/sinistea.4bpp");
+const u32 gObjectEventPic_Polteageist[] = INCBIN_U32("graphics/object_events/pics/pokemon/polteageist.4bpp");
+const u32 gObjectEventPic_Hatenna[] = INCBIN_U32("graphics/object_events/pics/pokemon/hatenna.4bpp");
+const u32 gObjectEventPic_Hattrem[] = INCBIN_U32("graphics/object_events/pics/pokemon/hattrem.4bpp");
+const u32 gObjectEventPic_Hatterene[] = INCBIN_U32("graphics/object_events/pics/pokemon/hatterene.4bpp");
+const u32 gObjectEventPic_Impidimp[] = INCBIN_U32("graphics/object_events/pics/pokemon/impidimp.4bpp");
+const u32 gObjectEventPic_Morgrem[] = INCBIN_U32("graphics/object_events/pics/pokemon/morgrem.4bpp");
+const u32 gObjectEventPic_Grimmsnarl[] = INCBIN_U32("graphics/object_events/pics/pokemon/grimmsnarl.4bpp");
+const u32 gObjectEventPic_Milcery[] = INCBIN_U32("graphics/object_events/pics/pokemon/milcery.4bpp");
+const u32 gObjectEventPic_Alcremie[] = INCBIN_U32("graphics/object_events/pics/pokemon/alcremie.4bpp");
+const u32 gObjectEventPic_Falinks[] = INCBIN_U32("graphics/object_events/pics/pokemon/falinks.4bpp");
+const u32 gObjectEventPic_Pincurchin[] = INCBIN_U32("graphics/object_events/pics/pokemon/pincurchin.4bpp");
 
 const u32 gObjectEventPic_Null[] = INCBIN_U32("graphics/object_events/pics/pokemon/null.4bpp");
 
