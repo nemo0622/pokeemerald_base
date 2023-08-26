@@ -1286,6 +1286,11 @@ const u32 gObjectEventPic_Boltund[] = INCBIN_U32("graphics/object_events/pics/po
 const u32 gObjectEventPic_Rolycoly[] = INCBIN_U32("graphics/object_events/pics/pokemon/rolycoly.4bpp");
 const u32 gObjectEventPic_Carkol[] = INCBIN_U32("graphics/object_events/pics/pokemon/carkol.4bpp");
 const u32 gObjectEventPic_Coalossal[] = INCBIN_U32("graphics/object_events/pics/pokemon/coalossal.4bpp");
+const u32 gObjectEventPic_Applin[] = INCBIN_U32("graphics/object_events/pics/pokemon/applin.4bpp");
+const u32 gObjectEventPic_Flapple[] = INCBIN_U32("graphics/object_events/pics/pokemon/flapple.4bpp");
+const u32 gObjectEventPic_Appletun[] = INCBIN_U32("graphics/object_events/pics/pokemon/appletun.4bpp");
+const u32 gObjectEventPic_Silicobra[] = INCBIN_U32("graphics/object_events/pics/pokemon/silicobra.4bpp");
+const u32 gObjectEventPic_Sandaconda[] = INCBIN_U32("graphics/object_events/pics/pokemon/sandaconda.4bpp");
 
 const u32 gObjectEventPic_Null[] = INCBIN_U32("graphics/object_events/pics/pokemon/null.4bpp");
 

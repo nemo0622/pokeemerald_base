@@ -9368,6 +9368,46 @@ static const struct SpriteFrameImage sPicTable_Coalossal[] = {
     overworld_frame(gObjectEventPic_Coalossal, 4, 4, 4),
     overworld_frame(gObjectEventPic_Coalossal, 4, 4, 5),
 };
+static const struct SpriteFrameImage sPicTable_Applin[] = {
+    overworld_frame(gObjectEventPic_Applin, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Applin, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Applin, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Applin, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Applin, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Applin, 4, 4, 5),
+};
+static const struct SpriteFrameImage sPicTable_Flapple[] = {
+    overworld_frame(gObjectEventPic_Flapple, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Flapple, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Flapple, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Flapple, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Flapple, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Flapple, 4, 4, 5),
+};
+static const struct SpriteFrameImage sPicTable_Appletun[] = {
+    overworld_frame(gObjectEventPic_Appletun, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Appletun, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Appletun, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Appletun, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Appletun, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Appletun, 4, 4, 5),
+};
+static const struct SpriteFrameImage sPicTable_Silicobra[] = {
+    overworld_frame(gObjectEventPic_Silicobra, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Silicobra, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Silicobra, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Silicobra, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Silicobra, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Silicobra, 4, 4, 5),
+};
+static const struct SpriteFrameImage sPicTable_Sandaconda[] = {
+    overworld_frame(gObjectEventPic_Sandaconda, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Sandaconda, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Sandaconda, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Sandaconda, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Sandaconda, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Sandaconda, 4, 4, 5),
+};
 
 
 
