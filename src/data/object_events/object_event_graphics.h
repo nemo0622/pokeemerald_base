@@ -1324,6 +1324,20 @@ const u32 gObjectEventPic_Dracozolt[] = INCBIN_U32("graphics/object_events/pics/
 const u32 gObjectEventPic_Arctozolt[] = INCBIN_U32("graphics/object_events/pics/pokemon/arctozolt.4bpp");
 const u32 gObjectEventPic_Dracovish[] = INCBIN_U32("graphics/object_events/pics/pokemon/dracovish.4bpp");
 const u32 gObjectEventPic_Arctovish[] = INCBIN_U32("graphics/object_events/pics/pokemon/arctovish.4bpp");
+const u32 gObjectEventPic_Duraludon[] = INCBIN_U32("graphics/object_events/pics/pokemon/duraludon.4bpp");
+const u32 gObjectEventPic_Dreepy[] = INCBIN_U32("graphics/object_events/pics/pokemon/dreepy.4bpp");
+const u32 gObjectEventPic_Drakloak[] = INCBIN_U32("graphics/object_events/pics/pokemon/drakloak.4bpp");
+const u32 gObjectEventPic_Dragapult[] = INCBIN_U32("graphics/object_events/pics/pokemon/dragapult.4bpp");
+const u32 gObjectEventPic_Zacian[] = INCBIN_U32("graphics/object_events/pics/pokemon/zacian.4bpp");
+const u32 gObjectEventPic_Zamazenta[] = INCBIN_U32("graphics/object_events/pics/pokemon/zamazenta.4bpp");
+const u32 gObjectEventPic_Kubfu[] = INCBIN_U32("graphics/object_events/pics/pokemon/kubfu.4bpp");
+const u32 gObjectEventPic_Urshifu[] = INCBIN_U32("graphics/object_events/pics/pokemon/urshifu.4bpp");
+const u32 gObjectEventPic_Zarude[] = INCBIN_U32("graphics/object_events/pics/pokemon/zarude.4bpp");
+const u32 gObjectEventPic_Regieleki[] = INCBIN_U32("graphics/object_events/pics/pokemon/regieleki.4bpp");
+const u32 gObjectEventPic_Regidrago[] = INCBIN_U32("graphics/object_events/pics/pokemon/regidrago.4bpp");
+const u32 gObjectEventPic_Glastrier[] = INCBIN_U32("graphics/object_events/pics/pokemon/glastrier.4bpp");
+const u32 gObjectEventPic_Spectrier[] = INCBIN_U32("graphics/object_events/pics/pokemon/spectrier.4bpp");
+const u32 gObjectEventPic_Calyrex[] = INCBIN_U32("graphics/object_events/pics/pokemon/calyrex.4bpp");
 
 const u32 gObjectEventPic_Null[] = INCBIN_U32("graphics/object_events/pics/pokemon/null.4bpp");
 

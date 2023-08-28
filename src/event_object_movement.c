@@ -1881,6 +1881,8 @@ bool8 AllowFollowerGFX(u16 speciesNum)
     }
     else if(speciesNum <= 905) // if Galar or Hisui Pokemon
     {
+        if(speciesNum == 890 || speciesNum == 905) { return FALSE; }
+
         return TRUE;
     }
     else if((speciesNum >= 957 && speciesNum <= 1009)) // Alolan, Galarian, and Hisuian forms

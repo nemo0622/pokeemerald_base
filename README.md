@@ -31,7 +31,7 @@ ISSUES:
     - Both male and female Pyroar's give male followers
     - NOTE: Alolan/Galarian/Hisuian forms *DO* work!!
 - "Large" Pokémon sprites are currently not supported
-    - Current Exclusions: Dialga, Palkia, Giratina, Arceus, Reshiram, Zekrom, Kyurem
+    - Current Exclusions: Dialga, Palkia, Giratina, Arceus, Reshiram, Zekrom, Kyurem, Eternatus, Enamorus
 - Some of the overworld sprites need to be improved (Sawk and Throh, for example, look ROUGH)
 
 FUTURE PLANS:
