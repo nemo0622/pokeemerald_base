@@ -30,6 +30,7 @@ Note: All credit for this base goes to these creators!! I just did the merging a
 - All Pokémon can evolve without trades, and can evolve into regional forms where applicable
     - Ex: Many Pokémon evolve into Hisuian evolutions when evolved at night, or with Dusk Stones
     - Note: "Daytime" evolutions start at 6 am, and "Nighttime" evolutions start at 8 pm
+- Gen 6+ style EXP. Share, able to be toggled on/off!
 
 ## Known Issues, Future Plans, & Credits!
 
