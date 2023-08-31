@@ -69,3 +69,4 @@ CREDITS:
         - Samurott by Wolfang62
         - Wyrdeer by Anarlaurendil and Lasse00
         - Others by DarkusShadow
+- Most smaller changes from the pokeemerald [list of simple modifications](https://github.com/pret/pokeemerald/wiki/Tutorials)
