@@ -19,18 +19,19 @@ Note: All credit for this base goes to these creators!! I just did the merging a
         - Only Generations 1-3 were in original build - all further followers added by me, and created by the artists credited below! Please go support them!
     - Lighting! Day/Night system, shadows under all NPCs, and shining lamp posts.
     - Key item wheel, allowing up to 4 items to be registered.
-- Better Reflection System
-- Press B to move arrow to "Run" option
-- Keyboard switches to lowercase automatically
-- Nickname Pokémon from party
-- Colored stats by nature
-- Pace of battle slightly improved (mashing A decreases lengthy delays)
-- Show EVs/IVs in summary screen by pressing A
-- Press A when viewing clock to change the time
 - All Pokémon can evolve without trades, and can evolve into regional forms where applicable
     - Ex: Many Pokémon evolve into Hisuian evolutions when evolved at night, or with Dusk Stones
     - Note: "Daytime" evolutions start at 6 am, and "Nighttime" evolutions start at 8 pm
 - Gen 6+ style EXP. Share, able to be toggled on/off!
+- Show move type effectiveness in battle
+- Nickname Pokémon from party
+- Colored stats by nature
+- Show EVs/IVs in summary screen by pressing A
+- Better, less glitchy reflection System
+- Press B to move arrow to "Run" option
+- Keyboard switches to lowercase automatically
+- Pace of battle slightly improved (mashing A decreases lengthy delays)
+- Press A when viewing clock to change the time
 
 ## Known Issues, Future Plans, & Credits!
 
@@ -48,7 +49,6 @@ FUTURE PLANS:
 - Follower improvements:
     - Add support for individual Pokémon forms (ex: Rotom forms, Oricorio forms, etc.)
     - Improve some follower sprites (Archeops is the most extreme case lol)
-- [Show type effectiveness in battle](https://www.pokecommunity.com/showpost.php?p=10167016&postcount=83)
 
 CREDITS:
 - RHH Team for the pokeemerald Expansion project
