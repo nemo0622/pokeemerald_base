@@ -49,6 +49,7 @@ FUTURE PLANS:
 - Follower improvements:
     - Add support for individual Pokémon forms (ex: Rotom forms, Oricorio forms, etc.)
     - Improve some follower sprites (Archeops is the most extreme case lol)
+- Decapitalization of most dialogue
 
 CREDITS:
 - RHH Team for the pokeemerald Expansion project
