@@ -35,7 +35,7 @@ LavaridgeTown_Mart_EventScript_OldWoman::
 	end
 
 LavaridgeTown_Mart_Text_XSpeedFirstStrike:
-	.string "Use X SPeed to add to a Pokémon's\n"
+	.string "Use X Speed to add to a Pokémon's\n"
 	.string "speed in battle.\p"
 	.string "That will help it get in the first\n"
 	.string "strike--a decided advantage!$"
