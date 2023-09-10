@@ -33,6 +33,8 @@ Note: All credit for this base goes to these creators!! I just did the merging a
 - Keyboard switches to lowercase automatically
 - Pace of battle slightly improved (mashing A decreases lengthy delays)
 - Press A when viewing clock to change the time
+- Fishing is always successful 
+- Change player direction while moving, like in later generations
 
 ## Known Issues, Future Plans, & Credits!
 
@@ -50,8 +52,6 @@ FUTURE PLANS:
 - Follower improvements:
     - Add support for individual Pokémon forms (ex: Rotom forms, Oricorio forms, etc.)
     - Improve some follower sprites (Archeops is the most extreme case lol)
-- Fish always get hooked
-- Change player direction while moving
 - PC Access in PokéNav (only in Fly-enabled maps, so it's restricted in "dungeon" areas for balance)
 
 CREDITS:
