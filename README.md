@@ -37,6 +37,7 @@ Note: All credit for this base goes to these creators!! I just did the merging a
 - Change player direction while moving, like in later generations
 - Default "Fast" text speed
 - PC Access in PokéNav through "Condition" menu (only in Fly-enabled maps, so it's restricted in "dungeon" areas for balance)
+- Press Start in Bag menu to sort bag items!
 
 ## Known Issues, Future Plans, & Credits!
 
