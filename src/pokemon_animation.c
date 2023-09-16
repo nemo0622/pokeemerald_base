@@ -1000,6 +1000,10 @@ static const u8 sSpeciesToBackAnimSet[NUM_SPECIES] =
     [SPECIES_HOOPA]                        = BACK_ANIM_CONVEX_DOUBLE_ARC,
     [SPECIES_VOLCANION]                    = BACK_ANIM_SHAKE_GLOW_RED,
     
+    [SPECIES_SPRIGATITO]                   = BACK_ANIM_V_STRETCH,
+    [SPECIES_FLORAGATO]                    = BACK_ANIM_V_STRETCH,
+    [SPECIES_MEOWSCARADA]                    = BACK_ANIM_V_STRETCH,
+    
         //Gen 6 Forms
     [SPECIES_GRENINJA_ASH]                 = BACK_ANIM_SHAKE_GLOW_BLUE,
     [SPECIES_GRENINJA_BATTLE_BOND]         = BACK_ANIM_V_STRETCH,

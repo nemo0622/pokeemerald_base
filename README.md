@@ -50,11 +50,17 @@ ISSUES:
 - "Large" Pokémon sprites are currently not supported
     - Current Exclusions: Dialga, Palkia, Giratina, Arceus, Reshiram, Zekrom, Kyurem, Eternatus, Enamorus
 - Some of the overworld sprites need to be improved (Sawk and Throh, for example, look ROUGH)
+- NOT ALL GENERATION 9 POKÉMON INCLUDED YET! Also:
+    - Sprites sometome glitch in animating a little, not a huge deal but worth mentioning
+    - National Dex sorted by weight and height are not in correct order
+    - Cries are incorrect! Reuses other Pokémon's cries
+    - No shiny palettes yet, shinies just look like normal guys that sparkle
 
 FUTURE PLANS:
 - Follower improvements:
     - Add support for individual Pokémon forms (ex: Rotom forms, Oricorio forms, etc.)
     - Improve some follower sprites (Archeops is the most extreme case lol)
+- More Generation 9 Pokémon
 
 CREDITS:
 - RHH Team for the pokeemerald Expansion project
@@ -75,4 +81,11 @@ CREDITS:
         - Samurott by Wolfang62
         - Wyrdeer by Anarlaurendil and Lasse00
         - Others by DarkusShadow
+- Generation 9 Overworld Sprites:
+    - DarkusShadow on DeviantArt
 - Most smaller changes from the pokeemerald [list of simple modifications](https://github.com/pret/pokeemerald/wiki/Tutorials)
+- Generation 9 sprites:
+    - Most front battle sprites by [KingOfThe-X-Roads](https://www.deviantart.com/kingofthe-x-roads/art/Gen-9-Sprites-Pokemon-Scarlet-and-Violet-908341834)
+    - Ceruledge and Roaring Moon battle sprites by QDylm on DeviantArt
+    - Back sprites by Caruban
+    - Icons by [Ezerart](https://www.deviantart.com/ezerart/art/Pokemon-Gen-9-Icon-sprites-3DS-Style-944211258) on DeviantArt

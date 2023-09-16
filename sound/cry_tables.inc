@@ -1341,6 +1341,9 @@ gCryTable::
 	cry Cry_Sneasler
 	cry Cry_Overqwil
 	cry Cry_Enamorus
+	cry Cry_Sprigatito
+	cry Cry_Floragato
+	cry Cry_Meowscarada
 .else
 	cry Cry_Unown
 	cry Cry_Unown
@@ -3462,7 +3465,9 @@ gCryTable_Reverse::
 	cry_reverse Cry_Basculegion
 	cry_reverse Cry_Sneasler
 	cry_reverse Cry_Overqwil
-	cry_reverse Cry_Enamorus
+	cry_reverse Cry_Sprigatito
+	cry_reverse Cry_Floragato
+	cry_reverse Cry_Meowscarada
 .else
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown

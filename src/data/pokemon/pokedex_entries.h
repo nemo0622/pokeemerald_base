@@ -10880,5 +10880,41 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 296,
         .trainerOffset = 1,
     },
+
+    [NATIONAL_DEX_SPRIGATITO] =
+    {
+        .categoryName = _("Grass Cat"),
+        .height = 4,
+        .weight = 41,
+        .description = gSprigatitoPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_FLORAGATO] =
+    {
+        .categoryName = _("Grass Cat"),
+        .height = 9,
+        .weight = 122,
+        .description = gFloragatoPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_MEOWSCARADA] =
+    {
+        .categoryName = _("Magician"),
+        .height = 15,
+        .weight = 312,
+        .description = gMeowscaradaPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
 #endif
 };

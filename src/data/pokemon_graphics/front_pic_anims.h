@@ -9511,6 +9511,24 @@ static const union AnimCmd sAnim_Enamorus_1[] =
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
+
+static const union AnimCmd sAnim_Sprigatito_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Floragato_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Meowscarada_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
 #endif
 
 static const union AnimCmd sAnim_VenusaurMega_1[] =
@@ -11467,6 +11485,9 @@ SINGLE_ANIMATION(Basculegion);
 SINGLE_ANIMATION(Sneasler);
 SINGLE_ANIMATION(Overqwil);
 SINGLE_ANIMATION(Enamorus);
+SINGLE_ANIMATION(Sprigatito);
+SINGLE_ANIMATION(Floragato);
+SINGLE_ANIMATION(Meowscarada);
 #endif
 SINGLE_ANIMATION(VenusaurMega);
 SINGLE_ANIMATION(CHARIZARD_MEGA_X);
@@ -12554,6 +12575,9 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_SNEASLER] = sAnims_Sneasler,
     [SPECIES_OVERQWIL] = sAnims_Overqwil,
     [SPECIES_ENAMORUS] = sAnims_Enamorus,
+    [SPECIES_SPRIGATITO] = sAnims_Sprigatito,
+    [SPECIES_FLORAGATO] = sAnims_Floragato,
+    [SPECIES_MEOWSCARADA] = sAnims_Meowscarada,
 #endif
     [SPECIES_VENUSAUR_MEGA] = sAnims_VenusaurMega,
     [SPECIES_CHARIZARD_MEGA_X] = sAnims_CHARIZARD_MEGA_X,

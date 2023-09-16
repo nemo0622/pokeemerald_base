@@ -5398,4 +5398,22 @@ const u8 gEnamorusPokedexText[] = _(
     "winter. According to legend, this\n"
     "Pokémon's love gives rise to the\n"
     "budding of fresh life across the land.");
+
+const u8 gSprigatitoPokedexText[] = _(
+    "Its fluffy fur is similar in\n"
+    "composition to plants. This\n"
+    "Pokémon frequently washes its face\n"
+    "to keep it drying out.");
+
+const u8 gFloragatoPokedexText[] = _(
+    "Floragato deftly wields the vine\n"
+    "hidden beneath its long fur,\n"
+    "slamming the hard flower bud\n"
+    "against its opponents.");
+
+const u8 gMeowscaradaPokedexText[] = _(
+    "This Pokémon uses the reflective\n"
+    "fur lining it its cape to camouflage\n"
+    "the stem of its flower, creating the\n"
+    "illusion that it is floating.");
 #endif

@@ -1885,9 +1885,10 @@ bool8 AllowFollowerGFX(u16 speciesNum)
 
         return TRUE;
     }
-    else if((speciesNum >= 957 && speciesNum <= 1009)) // Alolan, Galarian, and Hisuian forms
+    // NOTE: After adding new species, INCREASE BELOW NUMBERS BY 1!
+    else if((speciesNum >= 960 && speciesNum <= 1012)) // Alolan, Galarian, and Hisuian forms
     {
-        if(speciesNum == 973) { return FALSE; }
+        if(speciesNum == 976) { return FALSE; }
 
         return TRUE;
     }

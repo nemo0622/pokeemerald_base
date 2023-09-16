@@ -4015,6 +4015,18 @@ Cry_Overqwil::
 Cry_Enamorus::
 	.incbin "sound/direct_sound_samples/cries/enamorus.bin"
 
+	.align 2
+Cry_Sprigatito::
+	.incbin "sound/direct_sound_samples/cries/sprigatito.bin"
+
+	.align 2
+Cry_Floragato::
+	.incbin "sound/direct_sound_samples/cries/floragato.bin"
+
+	.align 2
+Cry_Meowscarada::
+	.incbin "sound/direct_sound_samples/cries/meowscarada.bin"
+
 .endif
 
 	.align 2
