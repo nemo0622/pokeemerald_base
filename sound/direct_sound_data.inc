@@ -4027,6 +4027,18 @@ Cry_Floragato::
 Cry_Meowscarada::
 	.incbin "sound/direct_sound_samples/cries/meowscarada.bin"
 
+	.align 2
+Cry_Fuecoco::
+	.incbin "sound/direct_sound_samples/cries/fuecoco.bin"
+
+	.align 2
+Cry_Crocalor::
+	.incbin "sound/direct_sound_samples/cries/crocalor.bin"
+
+	.align 2
+Cry_Skeledirge::
+	.incbin "sound/direct_sound_samples/cries/skeledirge.bin"
+
 .endif
 
 	.align 2

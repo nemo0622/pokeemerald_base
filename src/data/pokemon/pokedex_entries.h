@@ -10916,5 +10916,41 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 296,
         .trainerOffset = 1,
     },
+
+    [NATIONAL_DEX_FUECOCO] =
+    {
+        .categoryName = _("Fire Croc"),
+        .height = 4,
+        .weight = 98,
+        .description = gFuecocoPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_CROCALOR] =
+    {
+        .categoryName = _("Fire Croc"),
+        .height = 10,
+        .weight = 307,
+        .description = gCrocalorPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_SKELEDIRGE] =
+    {
+        .categoryName = _("Singer"),
+        .height = 16,
+        .weight = 3265,
+        .description = gSkeledirgePokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
 #endif
 };

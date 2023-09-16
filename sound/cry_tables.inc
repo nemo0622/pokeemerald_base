@@ -1344,6 +1344,9 @@ gCryTable::
 	cry Cry_Sprigatito
 	cry Cry_Floragato
 	cry Cry_Meowscarada
+	cry Cry_Fuecoco
+	cry Cry_Crocalor
+	cry Cry_Skeledirge
 .else
 	cry Cry_Unown
 	cry Cry_Unown
@@ -3468,6 +3471,9 @@ gCryTable_Reverse::
 	cry_reverse Cry_Sprigatito
 	cry_reverse Cry_Floragato
 	cry_reverse Cry_Meowscarada
+	cry_reverse Cry_Fuecoco
+	cry_reverse Cry_Crocalor
+	cry_reverse Cry_Skeledirge
 .else
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown

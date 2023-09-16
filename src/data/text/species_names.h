@@ -917,6 +917,9 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_SPRIGATITO] = _("Sprigatito"),
     [SPECIES_FLORAGATO] = _("Floragato"),
     [SPECIES_MEOWSCARADA] = _("Meowscrada"), // MAX NAME LENGTH IS 10 CHARACTERS
+    [SPECIES_FUECOCO] = _("Fuecoco"),
+    [SPECIES_CROCALOR] = _("Crocalor"),
+    [SPECIES_SKELEDIRGE] = _("Skeledirge"),
 #endif
 
     // Megas

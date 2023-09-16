@@ -604,5 +604,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                        {EVO_ITEM_HOLD_DAY, ITEM_RAZOR_CLAW, SPECIES_SNEASLER}},
     [SPECIES_SPRIGATITO]            = {{EVO_LEVEL, 16, SPECIES_FLORAGATO}},
     [SPECIES_FLORAGATO]             = {{EVO_LEVEL, 36, SPECIES_MEOWSCARADA}},
+    [SPECIES_FUECOCO]               = {{EVO_LEVEL, 16, SPECIES_CROCALOR}},
+    [SPECIES_CROCALOR]              = {{EVO_LEVEL, 36, SPECIES_SKELEDIRGE}},
 #endif
 };

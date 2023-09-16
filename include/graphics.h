@@ -996,6 +996,9 @@ extern const u32 gMonFrontPic_Enamorus[];
 extern const u32 gMonFrontPic_Sprigatito[];
 extern const u32 gMonFrontPic_Floragato[];
 extern const u32 gMonFrontPic_Meowscarada[];
+extern const u32 gMonFrontPic_Fuecoco[];
+extern const u32 gMonFrontPic_Crocalor[];
+extern const u32 gMonFrontPic_Skeledirge[];
 #endif
 extern const u32 gMonFrontPic_VenusaurMega[];
 extern const u32 gMonFrontPic_CharizardMegaX[];
@@ -2213,6 +2216,9 @@ extern const u32 gMonBackPic_Enamorus[];
 extern const u32 gMonBackPic_Sprigatito[];
 extern const u32 gMonBackPic_Floragato[];
 extern const u32 gMonBackPic_Meowscarada[];
+extern const u32 gMonBackPic_Fuecoco[];
+extern const u32 gMonBackPic_Crocalor[];
+extern const u32 gMonBackPic_Skeledirge[];
 #endif
 extern const u32 gMonBackPic_VenusaurMega[];
 extern const u32 gMonBackPic_CharizardMegaX[];
@@ -3422,6 +3428,9 @@ extern const u32 gMonPalette_Enamorus[];
 extern const u32 gMonPalette_Sprigatito[];
 extern const u32 gMonPalette_Floragato[];
 extern const u32 gMonPalette_Meowscarada[];
+extern const u32 gMonPalette_Fuecoco[];
+extern const u32 gMonPalette_Crocalor[];
+extern const u32 gMonPalette_Skeledirge[];
 #endif
 extern const u32 gMonPalette_VenusaurMega[];
 extern const u32 gMonPalette_CharizardMegaX[];
@@ -4658,6 +4667,9 @@ extern const u32 gMonShinyPalette_Enamorus[];
 extern const u32 gMonShinyPalette_Sprigatito[];
 extern const u32 gMonShinyPalette_Floragato[];
 extern const u32 gMonShinyPalette_Meowscarada[];
+extern const u32 gMonShinyPalette_Fuecoco[];
+extern const u32 gMonShinyPalette_Crocalor[];
+extern const u32 gMonShinyPalette_Skeledirge[];
 #endif
 extern const u32 gMonShinyPalette_VenusaurMega[];
 extern const u32 gMonShinyPalette_CharizardMegaX[];
@@ -5888,6 +5900,9 @@ extern const u8 gMonIcon_Enamorus[];
 extern const u8 gMonIcon_Sprigatito[];
 extern const u8 gMonIcon_Floragato[];
 extern const u8 gMonIcon_Meowscarada[];
+extern const u8 gMonIcon_Fuecoco[];
+extern const u8 gMonIcon_Crocalor[];
+extern const u8 gMonIcon_Skeledirge[];
 #endif
 extern const u8 gMonIcon_VenusaurMega[];
 extern const u8 gMonIcon_CharizardMegaX[];
@@ -7104,6 +7119,9 @@ extern const u8 gMonFootprint_Calyrex[];
 extern const u8 gMonFootprint_Sprigatito[];
 extern const u8 gMonFootprint_Floragato[];
 extern const u8 gMonFootprint_Meowscarada[];
+extern const u8 gMonFootprint_Fuecoco[];
+extern const u8 gMonFootprint_Crocalor[];
+extern const u8 gMonFootprint_Skeledirge[];
 #endif
 
 // trainer sprites

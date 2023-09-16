@@ -5416,4 +5416,22 @@ const u8 gMeowscaradaPokedexText[] = _(
     "fur lining it its cape to camouflage\n"
     "the stem of its flower, creating the\n"
     "illusion that it is floating.");
+
+const u8 gFuecocoPokedexText[] = _(
+    "It lies on warm rocks and uses\n"
+    "the heat absorbed by its square-\n"
+    "shaped scales to create fire\n"
+    "energy.");
+
+const u8 gCrocalorPokedexText[] = _(
+    "The combination of Crocalor's fire\n"
+    "energy and vitality has caused an\n"
+    "egg-shaped fireball to appear on\n"
+    "the Pokémon's head.");
+
+const u8 gSkeledirgePokedexText[] = _(
+    "The fiery bird changes shape when\n"
+    "Skeledirge sings. Rumor has it that\n"
+    "the bird was born when the fireball on\n"
+    "Skeledirge's head gained a soul.");
 #endif
