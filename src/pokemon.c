@@ -1258,6 +1258,9 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(FUECOCO),
     SPECIES_TO_NATIONAL(CROCALOR),
     SPECIES_TO_NATIONAL(SKELEDIRGE),
+    SPECIES_TO_NATIONAL(QUAXLY),
+    SPECIES_TO_NATIONAL(QUAXWELL),
+    SPECIES_TO_NATIONAL(QUAQUAVAL),
 #endif
 
     // Megas
@@ -2889,6 +2892,9 @@ const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_FUECOCO - 1]       = ANIM_H_STRETCH,
     [SPECIES_CROCALOR - 1]       = ANIM_H_STRETCH,
     [SPECIES_SKELEDIRGE - 1]       = ANIM_H_STRETCH,
+    [SPECIES_QUAXLY - 1]       = ANIM_H_STRETCH,
+    [SPECIES_QUAXWELL - 1]       = ANIM_H_STRETCH,
+    [SPECIES_QUAQUAVAL - 1]       = ANIM_H_STRETCH,
     [SPECIES_DEOXYS_ATTACK - 1]          = ANIM_GROW_VIBRATE,
     [SPECIES_DEOXYS_DEFENSE - 1]         = ANIM_GROW_VIBRATE,
     [SPECIES_DEOXYS_SPEED - 1]           = ANIM_GROW_VIBRATE,
@@ -8017,10 +8023,17 @@ static void Task_PokemonSummaryAnimateAfterDelay(u8 taskId)
 
 void BattleAnimateFrontSprite(struct Sprite *sprite, u16 species, bool8 noCry, u8 panMode)
 {
-    if (gHitMarker & HITMARKER_NO_ANIMATIONS && !(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK)))
-        DoMonFrontSpriteAnimation(sprite, species, noCry, panMode | SKIP_FRONT_ANIM);
+    if(species < 906 || species > 914)
+    {
+        if (gHitMarker & HITMARKER_NO_ANIMATIONS && !(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK)))
+            DoMonFrontSpriteAnimation(sprite, species, noCry, panMode | SKIP_FRONT_ANIM);
+        else
+            DoMonFrontSpriteAnimation(sprite, species, noCry, panMode);
+    }
     else
-        DoMonFrontSpriteAnimation(sprite, species, noCry, panMode);
+    {
+        DoMonFrontSpriteAnimation(sprite, species, noCry, panMode | 0x80);
+    }
 }
 
 void DoMonFrontSpriteAnimation(struct Sprite *sprite, u16 species, bool8 noCry, u8 panModeAnimFlag)
@@ -8072,22 +8085,29 @@ void DoMonFrontSpriteAnimation(struct Sprite *sprite, u16 species, bool8 noCry, 
 
 void PokemonSummaryDoMonAnimation(struct Sprite *sprite, u16 species, bool8 oneFrame)
 {
-    if (!oneFrame && HasTwoFramesAnimation(species))
-        StartSpriteAnim(sprite, 1);
-    if (sMonAnimationDelayTable[species - 1] != 0)
+    if(species < 906 || species > 914) // if species is NOT a Paldea Pokemon
     {
-        // Animation has delay, start delay task
-        u8 taskId = CreateTask(Task_PokemonSummaryAnimateAfterDelay, 0);
-        STORE_PTR_IN_TASK(sprite, taskId, 0);
-        gTasks[taskId].sAnimId = sMonFrontAnimIdsTable[species - 1];
-        gTasks[taskId].sAnimDelay = sMonAnimationDelayTable[species - 1];
-        SummaryScreen_SetAnimDelayTaskId(taskId);
-        SetSpriteCB_MonAnimDummy(sprite);
+        if (!oneFrame && HasTwoFramesAnimation(species))
+            StartSpriteAnim(sprite, 1);
+        if (sMonAnimationDelayTable[species - 1] != 0)
+        {
+            // Animation has delay, start delay task
+            u8 taskId = CreateTask(Task_PokemonSummaryAnimateAfterDelay, 0);
+            STORE_PTR_IN_TASK(sprite, taskId, 0);
+            gTasks[taskId].sAnimId = sMonFrontAnimIdsTable[species - 1];
+            gTasks[taskId].sAnimDelay = sMonAnimationDelayTable[species - 1];
+            SummaryScreen_SetAnimDelayTaskId(taskId);
+            SetSpriteCB_MonAnimDummy(sprite);
+        }
+        else
+        {
+            // No delay, start animation
+            StartMonSummaryAnimation(sprite, sMonFrontAnimIdsTable[species - 1]);
+        }
     }
     else
     {
-        // No delay, start animation
-        StartMonSummaryAnimation(sprite, sMonFrontAnimIdsTable[species - 1]);
+        sprite->callback = SpriteCallbackDummy;
     }
 }
 

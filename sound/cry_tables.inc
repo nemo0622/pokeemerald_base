@@ -1347,6 +1347,9 @@ gCryTable::
 	cry Cry_Fuecoco
 	cry Cry_Crocalor
 	cry Cry_Skeledirge
+	cry Cry_Quaxly
+	cry Cry_Quaxwell
+	cry Cry_Quaquaval
 .else
 	cry Cry_Unown
 	cry Cry_Unown
@@ -3474,6 +3477,9 @@ gCryTable_Reverse::
 	cry_reverse Cry_Fuecoco
 	cry_reverse Cry_Crocalor
 	cry_reverse Cry_Skeledirge
+	cry_reverse Cry_Quaxly
+	cry_reverse Cry_Quaxwell
+	cry_reverse Cry_Quaquaval
 .else
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown

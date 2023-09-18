@@ -38,6 +38,8 @@ Note: All credit for this base goes to these creators!! I just did the merging a
 - Default "Fast" text speed
 - PC Access in PokéNav through "Condition" menu (only in Fly-enabled maps, so it's restricted in "dungeon" areas for balance)
 - Press Start in Bag menu to sort bag items!
+- Some Generation 9 Pokémon!
+    - Sprigatito, Fuecoco, and Quaxly Lines
 
 ## Known Issues, Future Plans, & Credits!
 
@@ -51,7 +53,7 @@ ISSUES:
     - Current Exclusions: Dialga, Palkia, Giratina, Arceus, Reshiram, Zekrom, Kyurem, Eternatus, Enamorus
 - Some of the overworld sprites need to be improved (Sawk and Throh, for example, look ROUGH)
 - NOT ALL GENERATION 9 POKÉMON INCLUDED YET! Also:
-    - Sprites sometome glitch in animating a little, not a huge deal but worth mentioning
+    - Sprites flicker a bit while animating on evolution screen
     - National Dex sorted by weight and height are not in correct order
     - Cries are incorrect! Reuses other Pokémon's cries
     - No shiny palettes yet, shinies just look like normal guys that sparkle
@@ -61,6 +63,15 @@ FUTURE PLANS:
     - Add support for individual Pokémon forms (ex: Rotom forms, Oricorio forms, etc.)
     - Improve some follower sprites (Archeops is the most extreme case lol)
 - More Generation 9 Pokémon
+    - Charcadet Line
+    - Kilowattrel Line
+    - Toedscool Line
+    - Scovillain Line
+    - Tinkaton Line
+    - Cetitan Line
+    - Annihilape, Clodsire, Farigiraf, Dundunsparce, and Kingambit
+    - Great Tusk, Slither Wing, Roaring Moon
+    - Iron Treads, Iron Thorns, Iron Valiant
 
 CREDITS:
 - RHH Team for the pokeemerald Expansion project

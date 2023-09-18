@@ -606,5 +606,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_FLORAGATO]             = {{EVO_LEVEL, 36, SPECIES_MEOWSCARADA}},
     [SPECIES_FUECOCO]               = {{EVO_LEVEL, 16, SPECIES_CROCALOR}},
     [SPECIES_CROCALOR]              = {{EVO_LEVEL, 36, SPECIES_SKELEDIRGE}},
+    [SPECIES_QUAXLY]                = {{EVO_LEVEL, 16, SPECIES_QUAXWELL}},
+    [SPECIES_QUAXWELL]              = {{EVO_LEVEL, 36, SPECIES_QUAQUAVAL}},
 #endif
 };

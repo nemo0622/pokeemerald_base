@@ -920,6 +920,9 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_FUECOCO] = _("Fuecoco"),
     [SPECIES_CROCALOR] = _("Crocalor"),
     [SPECIES_SKELEDIRGE] = _("Skeledirge"),
+    [SPECIES_QUAXLY] = _("Quaxly"),
+    [SPECIES_QUAXWELL] = _("Quaxwell"),
+    [SPECIES_QUAQUAVAL] = _("Quaquaval"),
 #endif
 
     // Megas

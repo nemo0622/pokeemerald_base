@@ -4039,6 +4039,18 @@ Cry_Crocalor::
 Cry_Skeledirge::
 	.incbin "sound/direct_sound_samples/cries/skeledirge.bin"
 
+	.align 2
+Cry_Quaxly::
+	.incbin "sound/direct_sound_samples/cries/quaxly.bin"
+
+	.align 2
+Cry_Quaxwell::
+	.incbin "sound/direct_sound_samples/cries/quaxwell.bin"
+
+	.align 2
+Cry_Quaquaval::
+	.incbin "sound/direct_sound_samples/cries/quaquaval.bin"
+
 .endif
 
 	.align 2

@@ -5434,4 +5434,22 @@ const u8 gSkeledirgePokedexText[] = _(
     "Skeledirge sings. Rumor has it that\n"
     "the bird was born when the fireball on\n"
     "Skeledirge's head gained a soul.");
+
+const u8 gQuaxlyPokedexText[] = _(
+    "This Pokémon migrates across distant\n"
+    "lands. The gel secreted by its\n"
+    "feathers repels water and grime.\n"
+    "Quaxly is very, very tidy.");
+
+const u8 gQuaxwellPokedexText[] = _(
+    "Quaxwell constantly run through the\n"
+    "water to train their legs, competing\n"
+    "with each other to see which has the\n"
+    "stronger legs.");
+
+const u8 gQuaquavalPokedexText[] = _(
+    "A single Quaquaval kick can send a\n"
+    "truck rolling. This Pokémon uses its\n"
+    "powerful legs to perform dances\n"
+    "from far-off lands.");
 #endif

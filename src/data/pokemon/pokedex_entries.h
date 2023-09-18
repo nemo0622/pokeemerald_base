@@ -10952,5 +10952,41 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 296,
         .trainerOffset = 1,
     },
+
+    [NATIONAL_DEX_QUAXLY] =
+    {
+        .categoryName = _("Duckling"),
+        .height = 5,
+        .weight = 61,
+        .description = gQuaxlyPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_QUAXWELL] =
+    {
+        .categoryName = _("Practicing"),
+        .height = 12,
+        .weight = 215,
+        .description = gQuaxwellPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_QUAQUAVAL] =
+    {
+        .categoryName = _("Dancer"),
+        .height = 18,
+        .weight = 619,
+        .description = gQuaquavalPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
 #endif
 };
