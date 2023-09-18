@@ -2886,15 +2886,15 @@ const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_SNEASLER - 1]      = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_OVERQWIL - 1]      = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_ENAMORUS - 1]      = ANIM_V_SQUISH_AND_BOUNCE,
-    [SPECIES_SPRIGATITO - 1]      = ANIM_H_STRETCH,
-    [SPECIES_FLORAGATO - 1]       = ANIM_H_STRETCH,
-    [SPECIES_MEOWSCARADA - 1]       = ANIM_H_STRETCH,
-    [SPECIES_FUECOCO - 1]       = ANIM_H_STRETCH,
-    [SPECIES_CROCALOR - 1]       = ANIM_H_STRETCH,
-    [SPECIES_SKELEDIRGE - 1]       = ANIM_H_STRETCH,
-    [SPECIES_QUAXLY - 1]       = ANIM_H_STRETCH,
-    [SPECIES_QUAXWELL - 1]       = ANIM_H_STRETCH,
-    [SPECIES_QUAQUAVAL - 1]       = ANIM_H_STRETCH,
+    [SPECIES_SPRIGATITO - 1]      = ANIM_GROW_VIBRATE,
+    [SPECIES_FLORAGATO - 1]       = ANIM_GROW_VIBRATE,
+    [SPECIES_MEOWSCARADA - 1]       = ANIM_GROW_VIBRATE,
+    [SPECIES_FUECOCO - 1]       = ANIM_H_JUMPS,
+    [SPECIES_CROCALOR - 1]       = ANIM_H_SHAKE,
+    [SPECIES_SKELEDIRGE - 1]       = ANIM_H_SHAKE,
+    [SPECIES_QUAXLY - 1]       = ANIM_V_JUMPS_SMALL,
+    [SPECIES_QUAXWELL - 1]       = ANIM_V_JUMPS_SMALL,
+    [SPECIES_QUAQUAVAL - 1]       = ANIM_FIGURE_8,
     [SPECIES_DEOXYS_ATTACK - 1]          = ANIM_GROW_VIBRATE,
     [SPECIES_DEOXYS_DEFENSE - 1]         = ANIM_GROW_VIBRATE,
     [SPECIES_DEOXYS_SPEED - 1]           = ANIM_GROW_VIBRATE,
@@ -8023,17 +8023,10 @@ static void Task_PokemonSummaryAnimateAfterDelay(u8 taskId)
 
 void BattleAnimateFrontSprite(struct Sprite *sprite, u16 species, bool8 noCry, u8 panMode)
 {
-    if(species < 906 || species > 914)
-    {
-        if (gHitMarker & HITMARKER_NO_ANIMATIONS && !(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK)))
-            DoMonFrontSpriteAnimation(sprite, species, noCry, panMode | SKIP_FRONT_ANIM);
-        else
-            DoMonFrontSpriteAnimation(sprite, species, noCry, panMode);
-    }
+    if (gHitMarker & HITMARKER_NO_ANIMATIONS && !(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK)))
+        DoMonFrontSpriteAnimation(sprite, species, noCry, panMode | SKIP_FRONT_ANIM);
     else
-    {
-        DoMonFrontSpriteAnimation(sprite, species, noCry, panMode | 0x80);
-    }
+        DoMonFrontSpriteAnimation(sprite, species, noCry, panMode);
 }
 
 void DoMonFrontSpriteAnimation(struct Sprite *sprite, u16 species, bool8 noCry, u8 panModeAnimFlag)
@@ -8085,29 +8078,22 @@ void DoMonFrontSpriteAnimation(struct Sprite *sprite, u16 species, bool8 noCry, 
 
 void PokemonSummaryDoMonAnimation(struct Sprite *sprite, u16 species, bool8 oneFrame)
 {
-    if(species < 906 || species > 914) // if species is NOT a Paldea Pokemon
+    if (!oneFrame && HasTwoFramesAnimation(species))
+        StartSpriteAnim(sprite, 1);
+    if (sMonAnimationDelayTable[species - 1] != 0)
     {
-        if (!oneFrame && HasTwoFramesAnimation(species))
-            StartSpriteAnim(sprite, 1);
-        if (sMonAnimationDelayTable[species - 1] != 0)
-        {
-            // Animation has delay, start delay task
-            u8 taskId = CreateTask(Task_PokemonSummaryAnimateAfterDelay, 0);
-            STORE_PTR_IN_TASK(sprite, taskId, 0);
-            gTasks[taskId].sAnimId = sMonFrontAnimIdsTable[species - 1];
-            gTasks[taskId].sAnimDelay = sMonAnimationDelayTable[species - 1];
-            SummaryScreen_SetAnimDelayTaskId(taskId);
-            SetSpriteCB_MonAnimDummy(sprite);
-        }
-        else
-        {
-            // No delay, start animation
-            StartMonSummaryAnimation(sprite, sMonFrontAnimIdsTable[species - 1]);
-        }
+        // Animation has delay, start delay task
+        u8 taskId = CreateTask(Task_PokemonSummaryAnimateAfterDelay, 0);
+        STORE_PTR_IN_TASK(sprite, taskId, 0);
+        gTasks[taskId].sAnimId = sMonFrontAnimIdsTable[species - 1];
+        gTasks[taskId].sAnimDelay = sMonAnimationDelayTable[species - 1];
+        SummaryScreen_SetAnimDelayTaskId(taskId);
+        SetSpriteCB_MonAnimDummy(sprite);
     }
     else
     {
-        sprite->callback = SpriteCallbackDummy;
+        // No delay, start animation
+        StartMonSummaryAnimation(sprite, sMonFrontAnimIdsTable[species - 1]);
     }
 }
 

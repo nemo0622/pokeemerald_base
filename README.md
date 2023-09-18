@@ -53,7 +53,6 @@ ISSUES:
     - Current Exclusions: Dialga, Palkia, Giratina, Arceus, Reshiram, Zekrom, Kyurem, Eternatus, Enamorus
 - Some of the overworld sprites need to be improved (Sawk and Throh, for example, look ROUGH)
 - NOT ALL GENERATION 9 POKÉMON INCLUDED YET! Also:
-    - Sprites flicker a bit while animating on evolution screen
     - National Dex sorted by weight and height are not in correct order
     - Cries are incorrect! Reuses other Pokémon's cries
     - No shiny palettes yet, shinies just look like normal guys that sparkle
