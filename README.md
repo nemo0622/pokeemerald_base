@@ -40,6 +40,7 @@ Note: All credit for this base goes to these creators!! I just did the merging a
 - Press Start in Bag menu to sort bag items!
 - Some Generation 9 Pokémon!
     - Sprigatito, Fuecoco, and Quaxly Lines
+    - Charcadet, Armarouge, and Ceruledge
 
 ## Known Issues, Future Plans, & Credits!
 
@@ -62,7 +63,6 @@ FUTURE PLANS:
     - Add support for individual Pokémon forms (ex: Rotom forms, Oricorio forms, etc.)
     - Improve some follower sprites (Archeops is the most extreme case lol)
 - More Generation 9 Pokémon
-    - Charcadet Line
     - Kilowattrel Line
     - Toedscool Line
     - Scovillain Line
@@ -97,5 +97,5 @@ CREDITS:
 - Generation 9 sprites:
     - Most front battle sprites by [KingOfThe-X-Roads](https://www.deviantart.com/kingofthe-x-roads/art/Gen-9-Sprites-Pokemon-Scarlet-and-Violet-908341834)
     - Ceruledge and Roaring Moon battle sprites by QDylm on DeviantArt
-    - Back sprites by Caruban
+    - Back sprites from RelicCastle by Caruban, Mak
     - Icons by [Ezerart](https://www.deviantart.com/ezerart/art/Pokemon-Gen-9-Icon-sprites-3DS-Style-944211258) on DeviantArt

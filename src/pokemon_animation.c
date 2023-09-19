@@ -1003,12 +1003,15 @@ static const u8 sSpeciesToBackAnimSet[NUM_SPECIES] =
     [SPECIES_SPRIGATITO]                   = BACK_ANIM_V_STRETCH,
     [SPECIES_FLORAGATO]                    = BACK_ANIM_V_STRETCH,
     [SPECIES_MEOWSCARADA]                    = BACK_ANIM_V_STRETCH,
-    [SPECIES_FUECOCO]                    = BACK_ANIM_H_STRETCH,
-    [SPECIES_CROCALOR]                    = BACK_ANIM_H_STRETCH,
-    [SPECIES_SKELEDIRGE]                    = BACK_ANIM_H_STRETCH,
+    [SPECIES_FUECOCO]                    = BACK_ANIM_JOLT_RIGHT,
+    [SPECIES_CROCALOR]                    = BACK_ANIM_JOLT_RIGHT,
+    [SPECIES_SKELEDIRGE]                    = BACK_ANIM_JOLT_RIGHT,
     [SPECIES_QUAXLY]                    = BACK_ANIM_H_STRETCH,
     [SPECIES_QUAXWELL]                    = BACK_ANIM_H_STRETCH,
     [SPECIES_QUAQUAVAL]                    = BACK_ANIM_H_STRETCH,
+    [SPECIES_CHARCADET]                    = BACK_ANIM_TRIANGLE_DOWN,
+    [SPECIES_ARMAROUGE]                    = BACK_ANIM_TRIANGLE_DOWN,
+    [SPECIES_CERULEDGE]                    = BACK_ANIM_TRIANGLE_DOWN,
     
         //Gen 6 Forms
     [SPECIES_GRENINJA_ASH]                 = BACK_ANIM_SHAKE_GLOW_BLUE,

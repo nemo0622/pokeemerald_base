@@ -5452,4 +5452,22 @@ const u8 gQuaquavalPokedexText[] = _(
     "truck rolling. This Pokémon uses its\n"
     "powerful legs to perform dances\n"
     "from far-off lands.");
+
+const u8 gCharcadetPokedexText[] = _(
+    "Burnt charcoal came to life and\n"
+    "became a Pokémon. Possessing\n"
+    "a fiery fighting spirit, Charcadet\n"
+    "will battle even tough opponents.");
+
+const u8 gArmarougePokedexText[] = _(
+    "Armarouge wear a set of armor that\n"
+    "once belonged to a distinguished\n"
+    "warrior. This Pokémon is incredibly\n"
+    "loyal to skilled trainers.");
+
+const u8 gCeruledgePokedexText[] = _(
+    "The fiery blades on its arms burn\n"
+    "fiercely with the resentment of a\n"
+    "sword wielder who fell before\n"
+    "accomplishing their goal.");
 #endif

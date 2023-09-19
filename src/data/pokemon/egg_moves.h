@@ -4256,6 +4256,11 @@ const u16 gEggMoves[] = {
         MOVE_LAST_RESORT,
         MOVE_RAPID_SPIN,
         MOVE_ROOST),
+
+    egg_moves(CHARCADET,
+        MOVE_DESTINY_BOND,
+        MOVE_DISABLE,
+        MOVE_SPITE),
 #endif
 
     egg_moves(RATTATA_ALOLAN,

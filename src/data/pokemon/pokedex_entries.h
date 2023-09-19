@@ -10988,5 +10988,41 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 296,
         .trainerOffset = 1,
     },
+
+    [NATIONAL_DEX_CHARCADET] =
+    {
+        .categoryName = _("Fire Child"),
+        .height = 6,
+        .weight = 105,
+        .description = gCharcadetPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_ARMAROUGE] =
+    {
+        .categoryName = _("Fire Warrior"),
+        .height = 15,
+        .weight = 850,
+        .description = gArmarougePokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_CERULEDGE] =
+    {
+        .categoryName = _("Fire Blades"),
+        .height = 16,
+        .weight = 620,
+        .description = gCeruledgePokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
 #endif
 };

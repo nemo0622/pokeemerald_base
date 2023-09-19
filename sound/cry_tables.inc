@@ -1350,6 +1350,9 @@ gCryTable::
 	cry Cry_Quaxly
 	cry Cry_Quaxwell
 	cry Cry_Quaquaval
+	cry Cry_Charcadet
+	cry Cry_Armarouge
+	cry Cry_Ceruledge
 .else
 	cry Cry_Unown
 	cry Cry_Unown
@@ -3480,6 +3483,9 @@ gCryTable_Reverse::
 	cry_reverse Cry_Quaxly
 	cry_reverse Cry_Quaxwell
 	cry_reverse Cry_Quaquaval
+	cry_reverse Cry_Charcadet
+	cry_reverse Cry_Armarouge
+	cry_reverse Cry_Ceruledge
 .else
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown

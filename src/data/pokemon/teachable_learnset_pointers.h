@@ -924,6 +924,9 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     [SPECIES_QUAXLY] = sQuaxlyTeachableLearnset,
     [SPECIES_QUAXWELL] = sQuaxwellTeachableLearnset,
     [SPECIES_QUAQUAVAL] = sQuaquavalTeachableLearnset,
+    [SPECIES_CHARCADET] = sCharcadetTeachableLearnset,
+    [SPECIES_ARMAROUGE] = sArmarougeTeachableLearnset,
+    [SPECIES_CERULEDGE] = sCeruledgeTeachableLearnset,
 #endif
     // Megas
     [SPECIES_VENUSAUR_MEGA] = sVenusaurTeachableLearnset,

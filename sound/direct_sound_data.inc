@@ -4051,6 +4051,18 @@ Cry_Quaxwell::
 Cry_Quaquaval::
 	.incbin "sound/direct_sound_samples/cries/quaquaval.bin"
 
+	.align 2
+Cry_Charcadet::
+	.incbin "sound/direct_sound_samples/cries/charcadet.bin"
+
+	.align 2
+Cry_Armarouge::
+	.incbin "sound/direct_sound_samples/cries/armarouge.bin"
+
+	.align 2
+Cry_Ceruledge::
+	.incbin "sound/direct_sound_samples/cries/ceruledge.bin"
+
 .endif
 
 	.align 2

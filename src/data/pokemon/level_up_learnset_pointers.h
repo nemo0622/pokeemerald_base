@@ -924,6 +924,9 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_QUAXLY] = sQuaxlyLevelUpLearnset,
     [SPECIES_QUAXWELL] = sQuaxwellLevelUpLearnset,
     [SPECIES_QUAQUAVAL] = sQuaquavalLevelUpLearnset,
+    [SPECIES_CHARCADET] = sCharcadetLevelUpLearnset,
+    [SPECIES_ARMAROUGE] = sArmarougeLevelUpLearnset,
+    [SPECIES_CERULEDGE] = sCeruledgeLevelUpLearnset,
 #endif
     // Megas
     [SPECIES_VENUSAUR_MEGA] = sVenusaurLevelUpLearnset,
