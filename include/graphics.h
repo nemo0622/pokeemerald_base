@@ -1005,6 +1005,8 @@ extern const u32 gMonFrontPic_Quaquaval[];
 extern const u32 gMonFrontPic_Charcadet[];
 extern const u32 gMonFrontPic_Armarouge[];
 extern const u32 gMonFrontPic_Ceruledge[];
+extern const u32 gMonFrontPic_Wattrel[];
+extern const u32 gMonFrontPic_Kilowattrel[];
 #endif
 extern const u32 gMonFrontPic_VenusaurMega[];
 extern const u32 gMonFrontPic_CharizardMegaX[];
@@ -2231,6 +2233,8 @@ extern const u32 gMonBackPic_Quaquaval[];
 extern const u32 gMonBackPic_Charcadet[];
 extern const u32 gMonBackPic_Armarouge[];
 extern const u32 gMonBackPic_Ceruledge[];
+extern const u32 gMonBackPic_Wattrel[];
+extern const u32 gMonBackPic_Kilowattrel[];
 #endif
 extern const u32 gMonBackPic_VenusaurMega[];
 extern const u32 gMonBackPic_CharizardMegaX[];
@@ -3449,6 +3453,8 @@ extern const u32 gMonPalette_Quaquaval[];
 extern const u32 gMonPalette_Charcadet[];
 extern const u32 gMonPalette_Armarouge[];
 extern const u32 gMonPalette_Ceruledge[];
+extern const u32 gMonPalette_Wattrel[];
+extern const u32 gMonPalette_Kilowattrel[];
 #endif
 extern const u32 gMonPalette_VenusaurMega[];
 extern const u32 gMonPalette_CharizardMegaX[];
@@ -4694,6 +4700,8 @@ extern const u32 gMonShinyPalette_Quaquaval[];
 extern const u32 gMonShinyPalette_Charcadet[];
 extern const u32 gMonShinyPalette_Armarouge[];
 extern const u32 gMonShinyPalette_Ceruledge[];
+extern const u32 gMonShinyPalette_Wattrel[];
+extern const u32 gMonShinyPalette_Kilowattrel[];
 #endif
 extern const u32 gMonShinyPalette_VenusaurMega[];
 extern const u32 gMonShinyPalette_CharizardMegaX[];
@@ -5933,6 +5941,8 @@ extern const u8 gMonIcon_Quaquaval[];
 extern const u8 gMonIcon_Charcadet[];
 extern const u8 gMonIcon_Armarouge[];
 extern const u8 gMonIcon_Ceruledge[];
+extern const u8 gMonIcon_Wattrel[];
+extern const u8 gMonIcon_Kilowattrel[];
 #endif
 extern const u8 gMonIcon_VenusaurMega[];
 extern const u8 gMonIcon_CharizardMegaX[];
@@ -7158,6 +7168,8 @@ extern const u8 gMonFootprint_Quaquaval[];
 extern const u8 gMonFootprint_Charcadet[];
 extern const u8 gMonFootprint_Armarouge[];
 extern const u8 gMonFootprint_Ceruledge[];
+extern const u8 gMonFootprint_Wattrel[];
+extern const u8 gMonFootprint_Kilowattrel[];
 #endif
 
 // trainer sprites

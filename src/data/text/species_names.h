@@ -926,6 +926,8 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_CHARCADET] = _("Charcadet"),
     [SPECIES_ARMAROUGE] = _("Armarouge"),
     [SPECIES_CERULEDGE] = _("Ceruledge"),
+    [SPECIES_WATTREL] = _("Wattrel"),
+    [SPECIES_KILOWATTREL] = _("Kilowattrl"),
 #endif
 
     // Megas

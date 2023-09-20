@@ -4261,6 +4261,14 @@ const u16 gEggMoves[] = {
         MOVE_DESTINY_BOND,
         MOVE_DISABLE,
         MOVE_SPITE),
+
+    egg_moves(WATTREL,
+        MOVE_ENDEAVOR,
+        MOVE_FEATHER_DANCE,
+        MOVE_SPIT_UP,
+        MOVE_STOCKPILE,
+        MOVE_SWALLOW,
+        MOVE_WEATHER_BALL),
 #endif
 
     egg_moves(RATTATA_ALOLAN,

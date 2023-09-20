@@ -11024,5 +11024,29 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 296,
         .trainerOffset = 1,
     },
+
+    [NATIONAL_DEX_WATTREL] =
+    {
+        .categoryName = _("Storm Petrel"),
+        .height = 4,
+        .weight = 36,
+        .description = gWattrelPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_KILOWATTREL] =
+    {
+        .categoryName = _("Frigatebird"),
+        .height = 14,
+        .weight = 386,
+        .description = gKilowattrelPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
 #endif
 };

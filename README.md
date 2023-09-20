@@ -97,5 +97,5 @@ CREDITS:
 - Generation 9 sprites:
     - Most front battle sprites by [KingOfThe-X-Roads](https://www.deviantart.com/kingofthe-x-roads/art/Gen-9-Sprites-Pokemon-Scarlet-and-Violet-908341834)
     - Ceruledge and Roaring Moon battle sprites by QDylm on DeviantArt
-    - Back sprites from RelicCastle by Caruban, Mak
+    - Back sprites from KingOfThe-X-Roads on DeviantArt and from the RelicCastle site by Caruban, Mak
     - Icons by [Ezerart](https://www.deviantart.com/ezerart/art/Pokemon-Gen-9-Icon-sprites-3DS-Style-944211258) on DeviantArt

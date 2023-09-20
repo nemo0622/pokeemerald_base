@@ -610,5 +610,6 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_QUAXWELL]              = {{EVO_LEVEL, 36, SPECIES_QUAQUAVAL}},
     [SPECIES_CHARCADET]             = {{EVO_ITEM, ITEM_AUSPICIOUS_ARMOR, SPECIES_ARMAROUGE},
                                         {EVO_ITEM, ITEM_MALICIOUS_ARMOR, SPECIES_CERULEDGE}},
+    [SPECIES_WATTREL]               = {{EVO_LEVEL, 25, SPECIES_KILOWATTREL}},
 #endif
 };

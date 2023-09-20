@@ -5470,4 +5470,16 @@ const u8 gCeruledgePokedexText[] = _(
     "fiercely with the resentment of a\n"
     "sword wielder who fell before\n"
     "accomplishing their goal.");
+
+const u8 gWattrelPokedexText[] = _(
+    "When its wings catch the wind, the\n"
+    "bones within produce electricity.\n"
+    "This Pokémon dives into the ocean,\n"
+    "shocking and catching prey.");
+
+const u8 gKilowattrelPokedexText[] = _(
+    "Kilowattrel inflates a throat sac to\n"
+    "amplify electricity. By riding the\n"
+    "wind, this Pokémon can fly over\n"
+    "400 miles a day.");
 #endif

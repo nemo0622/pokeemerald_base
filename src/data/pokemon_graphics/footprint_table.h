@@ -920,6 +920,8 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_CHARCADET] = gMonFootprint_Charcadet,
     [SPECIES_ARMAROUGE] = gMonFootprint_Armarouge,
     [SPECIES_CERULEDGE] = gMonFootprint_Ceruledge,
+    [SPECIES_WATTREL] = gMonFootprint_Wattrel,
+    [SPECIES_KILOWATTREL] = gMonFootprint_Kilowattrel,
 #endif
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

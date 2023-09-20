@@ -4063,6 +4063,14 @@ Cry_Armarouge::
 Cry_Ceruledge::
 	.incbin "sound/direct_sound_samples/cries/ceruledge.bin"
 
+	.align 2
+Cry_Wattrel::
+	.incbin "sound/direct_sound_samples/cries/wattrel.bin"
+
+	.align 2
+Cry_Kilowattrel::
+	.incbin "sound/direct_sound_samples/cries/kilowattrel.bin"
+
 .endif
 
 	.align 2

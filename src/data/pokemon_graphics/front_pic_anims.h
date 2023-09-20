@@ -9583,6 +9583,18 @@ static const union AnimCmd sAnim_Ceruledge_1[] =
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
+
+static const union AnimCmd sAnim_Wattrel_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Kilowattrel_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
 #endif
 
 static const union AnimCmd sAnim_VenusaurMega_1[] =
@@ -11551,6 +11563,8 @@ SINGLE_ANIMATION(Quaquaval);
 SINGLE_ANIMATION(Charcadet);
 SINGLE_ANIMATION(Armarouge);
 SINGLE_ANIMATION(Ceruledge);
+SINGLE_ANIMATION(Wattrel);
+SINGLE_ANIMATION(Kilowattrel);
 #endif
 SINGLE_ANIMATION(VenusaurMega);
 SINGLE_ANIMATION(CHARIZARD_MEGA_X);
@@ -12650,6 +12664,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_CHARCADET] = sAnims_Charcadet,
     [SPECIES_ARMAROUGE] = sAnims_Armarouge,
     [SPECIES_CERULEDGE] = sAnims_Ceruledge,
+    [SPECIES_WATTREL] = sAnims_Wattrel,
+    [SPECIES_KILOWATTREL] = sAnims_Kilowattrel,
 #endif
     [SPECIES_VENUSAUR_MEGA] = sAnims_VenusaurMega,
     [SPECIES_CHARIZARD_MEGA_X] = sAnims_CHARIZARD_MEGA_X,

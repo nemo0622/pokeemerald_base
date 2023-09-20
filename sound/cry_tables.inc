@@ -1353,6 +1353,8 @@ gCryTable::
 	cry Cry_Charcadet
 	cry Cry_Armarouge
 	cry Cry_Ceruledge
+	cry Cry_Wattrel
+	cry Cry_Kilowattrel
 .else
 	cry Cry_Unown
 	cry Cry_Unown
@@ -3486,6 +3488,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Charcadet
 	cry_reverse Cry_Armarouge
 	cry_reverse Cry_Ceruledge
+	cry_reverse Cry_Wattrel
+	cry_reverse Cry_Kilowattrel
 .else
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown
