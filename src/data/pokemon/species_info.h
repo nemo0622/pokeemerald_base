@@ -21353,6 +21353,50 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
+
+    [SPECIES_TOEDSCOOL] =
+    {
+        .baseHP        = 40,
+        .baseAttack    = 40,
+        .baseDefense   = 35,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 100,
+        .types = { TYPE_GROUND, TYPE_GRASS},
+        .catchRate = 190,
+        .expYield = 67,
+        .evYield_SpDefense    = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = { EGG_GROUP_GRASS, EGG_GROUP_GRASS},
+        .abilities = {ABILITY_CLEAR_BODY, ABILITY_CLEAR_BODY, ABILITY_MOLD_BREAKER},
+        .bodyColor = BODY_COLOR_YELLOW,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_TOEDSCRUEL] =
+    {
+        .baseHP        = 80,
+        .baseAttack    = 70,
+        .baseDefense   = 65,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 120,
+        .types = { TYPE_GROUND, TYPE_GRASS},
+        .catchRate = 90,
+        .expYield = 180,
+        .evYield_SpDefense    = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = { EGG_GROUP_GRASS, EGG_GROUP_GRASS},
+        .abilities = {ABILITY_CLEAR_BODY, ABILITY_CLEAR_BODY, ABILITY_MOLD_BREAKER},
+        .bodyColor = BODY_COLOR_BLACK,
+        .noFlip = FALSE,
+    },
 #endif
 
     [SPECIES_VENUSAUR_MEGA] =

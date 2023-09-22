@@ -11048,5 +11048,29 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 296,
         .trainerOffset = 1,
     },
+
+    [NATIONAL_DEX_TOEDSCOOL] =
+    {
+        .categoryName = _("Woodear"),
+        .height = 9,
+        .weight = 330,
+        .description = gToedscoolPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_TOEDSCRUEL] =
+    {
+        .categoryName = _("Woodear"),
+        .height = 19,
+        .weight = 580,
+        .description = gToedscruelPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
 #endif
 };

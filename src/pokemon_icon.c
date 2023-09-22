@@ -955,6 +955,8 @@ const u8 *const gMonIconTable[] =
     [SPECIES_CERULEDGE] = gMonIcon_Ceruledge,
     [SPECIES_WATTREL] = gMonIcon_Wattrel,
     [SPECIES_KILOWATTREL] = gMonIcon_Kilowattrel,
+    [SPECIES_TOEDSCOOL] = gMonIcon_Toedscool,
+    [SPECIES_TOEDSCRUEL] = gMonIcon_Toedscruel,
 #endif
     [SPECIES_VENUSAUR_MEGA] = gMonIcon_VenusaurMega,
     [SPECIES_CHARIZARD_MEGA_X] = gMonIcon_CharizardMegaX,
@@ -2263,6 +2265,8 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_CERULEDGE] = 2,
     [SPECIES_WATTREL] = 0,
     [SPECIES_KILOWATTREL] = 0,
+    [SPECIES_TOEDSCOOL] = 0,
+    [SPECIES_TOEDSCRUEL] = 0,
     [SPECIES_VENUSAUR_MEGA] = 1,
     [SPECIES_CHARIZARD_MEGA_X] = 0,
     [SPECIES_CHARIZARD_MEGA_Y] = 0,

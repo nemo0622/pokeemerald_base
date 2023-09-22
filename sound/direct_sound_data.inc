@@ -4071,6 +4071,14 @@ Cry_Wattrel::
 Cry_Kilowattrel::
 	.incbin "sound/direct_sound_samples/cries/kilowattrel.bin"
 
+	.align 2
+Cry_Toedscool::
+	.incbin "sound/direct_sound_samples/cries/toedscool.bin"
+
+	.align 2
+Cry_Toedscruel::
+	.incbin "sound/direct_sound_samples/cries/toedscruel.bin"
+
 .endif
 
 	.align 2

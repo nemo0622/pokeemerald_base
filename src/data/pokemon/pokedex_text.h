@@ -5482,4 +5482,16 @@ const u8 gKilowattrelPokedexText[] = _(
     "amplify electricity. By riding the\n"
     "wind, this Pokémon can fly over\n"
     "400 miles a day.");
+
+const u8 gToedscoolPokedexText[] = _(
+    "Toedscool live in muggy forests.\n"
+    "The flaps that fall from its body\n"
+    "are chewy and very delicious.\n"
+    "It can run up to 30 miles per hour.");
+
+const u8 gToedscruelPokedexText[] = _(
+    "These Pokémon gather into groups\n"
+    "and form colonies deep within\n"
+    "forests. They absolutely hate it\n"
+    "strangers approach.");
 #endif
