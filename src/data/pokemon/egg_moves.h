@@ -4279,6 +4279,13 @@ const u16 gEggMoves[] = {
         MOVE_RAPID_SPIN,
         MOVE_TICKLE,
         MOVE_TOXIC),
+
+    egg_moves(CAPSAKID,
+        MOVE_INGRAIN,
+        MOVE_LEECH_SEED,
+        MOVE_RAGE_POWDER,
+        MOVE_ROLLOUT,
+        MOVE_WORRY_SEED),
 #endif
 
     egg_moves(RATTATA_ALOLAN,

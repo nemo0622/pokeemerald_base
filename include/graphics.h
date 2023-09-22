@@ -1009,6 +1009,8 @@ extern const u32 gMonFrontPic_Wattrel[];
 extern const u32 gMonFrontPic_Kilowattrel[];
 extern const u32 gMonFrontPic_Toedscool[];
 extern const u32 gMonFrontPic_Toedscruel[];
+extern const u32 gMonFrontPic_Capsakid[];
+extern const u32 gMonFrontPic_Scovillain[];
 #endif
 extern const u32 gMonFrontPic_VenusaurMega[];
 extern const u32 gMonFrontPic_CharizardMegaX[];
@@ -2239,6 +2241,8 @@ extern const u32 gMonBackPic_Wattrel[];
 extern const u32 gMonBackPic_Kilowattrel[];
 extern const u32 gMonBackPic_Toedscool[];
 extern const u32 gMonBackPic_Toedscruel[];
+extern const u32 gMonBackPic_Capsakid[];
+extern const u32 gMonBackPic_Scovillain[];
 #endif
 extern const u32 gMonBackPic_VenusaurMega[];
 extern const u32 gMonBackPic_CharizardMegaX[];
@@ -3461,6 +3465,8 @@ extern const u32 gMonPalette_Wattrel[];
 extern const u32 gMonPalette_Kilowattrel[];
 extern const u32 gMonPalette_Toedscool[];
 extern const u32 gMonPalette_Toedscruel[];
+extern const u32 gMonPalette_Capsakid[];
+extern const u32 gMonPalette_Scovillain[];
 #endif
 extern const u32 gMonPalette_VenusaurMega[];
 extern const u32 gMonPalette_CharizardMegaX[];
@@ -4710,6 +4716,8 @@ extern const u32 gMonShinyPalette_Wattrel[];
 extern const u32 gMonShinyPalette_Kilowattrel[];
 extern const u32 gMonShinyPalette_Toedscool[];
 extern const u32 gMonShinyPalette_Toedscruel[];
+extern const u32 gMonShinyPalette_Capsakid[];
+extern const u32 gMonShinyPalette_Scovillain[];
 #endif
 extern const u32 gMonShinyPalette_VenusaurMega[];
 extern const u32 gMonShinyPalette_CharizardMegaX[];
@@ -5953,6 +5961,8 @@ extern const u8 gMonIcon_Wattrel[];
 extern const u8 gMonIcon_Kilowattrel[];
 extern const u8 gMonIcon_Toedscool[];
 extern const u8 gMonIcon_Toedscruel[];
+extern const u8 gMonIcon_Capsakid[];
+extern const u8 gMonIcon_Scovillain[];
 #endif
 extern const u8 gMonIcon_VenusaurMega[];
 extern const u8 gMonIcon_CharizardMegaX[];
@@ -7182,6 +7192,8 @@ extern const u8 gMonFootprint_Wattrel[];
 extern const u8 gMonFootprint_Kilowattrel[];
 extern const u8 gMonFootprint_Toedscool[];
 extern const u8 gMonFootprint_Toedscruel[];
+extern const u8 gMonFootprint_Capsakid[];
+extern const u8 gMonFootprint_Scovillain[];
 #endif
 
 // trainer sprites

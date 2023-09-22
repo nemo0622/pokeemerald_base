@@ -21397,6 +21397,50 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
+
+    [SPECIES_CAPSAKID] =
+    {
+        .baseHP        = 50,
+        .baseAttack    = 62,
+        .baseDefense   = 40,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 62,
+        .baseSpDefense = 40,
+        .types = { TYPE_GRASS, TYPE_GRASS},
+        .catchRate = 190,
+        .expYield = 61,
+        .evYield_Attack    = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = { EGG_GROUP_GRASS, EGG_GROUP_GRASS},
+        .abilities = {ABILITY_CHLOROPHYLL, ABILITY_INSOMNIA, ABILITY_KLUTZ},
+        .bodyColor = BODY_COLOR_GREEN,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_SCOVILLAIN] =
+    {
+        .baseHP        = 65,
+        .baseAttack    = 108,
+        .baseDefense   = 65,
+        .baseSpeed     = 75,
+        .baseSpAttack  = 108,
+        .baseSpDefense = 65,
+        .types = { TYPE_GRASS, TYPE_FIRE},
+        .catchRate = 75,
+        .expYield = 170,
+        .evYield_Attack    = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = { EGG_GROUP_GRASS, EGG_GROUP_GRASS},
+        .abilities = {ABILITY_CHLOROPHYLL, ABILITY_INSOMNIA, ABILITY_MOODY},
+        .bodyColor = BODY_COLOR_GREEN,
+        .noFlip = FALSE,
+    },
 #endif
 
     [SPECIES_VENUSAUR_MEGA] =

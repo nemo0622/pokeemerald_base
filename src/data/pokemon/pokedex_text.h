@@ -5494,4 +5494,16 @@ const u8 gToedscruelPokedexText[] = _(
     "and form colonies deep within\n"
     "forests. They absolutely hate it\n"
     "strangers approach.");
+
+const u8 gCapsakidPokedexText[] = _(
+    "The more sunlight this Pokémon bathes\n"
+    "in, the more spicy chemicals are\n"
+    "produced by its body, and thus the\n"
+    "spicier its moves become.");
+
+const u8 gScovillainPokedexText[] = _(
+    "The red head creates fire energy\n"
+    "from spicy chemicals to blast\n"
+    "opponents. The green head is vicious,\n"
+    "often going on a rampage.");
 #endif

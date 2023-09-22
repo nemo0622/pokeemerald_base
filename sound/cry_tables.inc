@@ -1357,6 +1357,8 @@ gCryTable::
 	cry Cry_Kilowattrel
 	cry Cry_Toedscool
 	cry Cry_Toedscruel
+	cry Cry_Capsakid
+	cry Cry_Scovillain
 .else
 	cry Cry_Unown
 	cry Cry_Unown
@@ -3494,6 +3496,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kilowattrel
 	cry_reverse Cry_Toedscool
 	cry_reverse Cry_Toedscruel
+	cry_reverse Cry_Capsakid
+	cry_reverse Cry_Scovillain
 .else
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown

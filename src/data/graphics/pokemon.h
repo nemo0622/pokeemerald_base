@@ -942,6 +942,8 @@ const u32 gMonFrontPic_Wattrel[] = INCBIN_U32("graphics/pokemon/wattrel/anim_fro
 const u32 gMonFrontPic_Kilowattrel[] = INCBIN_U32("graphics/pokemon/kilowattrel/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Toedscool[] = INCBIN_U32("graphics/pokemon/toedscool/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Toedscruel[] = INCBIN_U32("graphics/pokemon/toedscruel/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Capsakid[] = INCBIN_U32("graphics/pokemon/capsakid/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Scovillain[] = INCBIN_U32("graphics/pokemon/scovillain/anim_front.4bpp.lz");
 #endif
 const u32 gMonFrontPic_VenusaurMega[] = INCBIN_U32("graphics/pokemon/venusaur/mega/front.4bpp.lz");
 const u32 gMonFrontPic_CharizardMegaX[] = INCBIN_U32("graphics/pokemon/charizard/mega_x/front.4bpp.lz");
@@ -2170,6 +2172,8 @@ const u32 gMonBackPic_Wattrel[] = INCBIN_U32("graphics/pokemon/wattrel/back.4bpp
 const u32 gMonBackPic_Kilowattrel[] = INCBIN_U32("graphics/pokemon/kilowattrel/back.4bpp.lz");
 const u32 gMonBackPic_Toedscool[] = INCBIN_U32("graphics/pokemon/toedscool/back.4bpp.lz");
 const u32 gMonBackPic_Toedscruel[] = INCBIN_U32("graphics/pokemon/toedscruel/back.4bpp.lz");
+const u32 gMonBackPic_Capsakid[] = INCBIN_U32("graphics/pokemon/capsakid/back.4bpp.lz");
+const u32 gMonBackPic_Scovillain[] = INCBIN_U32("graphics/pokemon/scovillain/back.4bpp.lz");
 #endif
 const u32 gMonBackPic_VenusaurMega[] = INCBIN_U32("graphics/pokemon/venusaur/mega/back.4bpp.lz");
 const u32 gMonBackPic_CharizardMegaX[] = INCBIN_U32("graphics/pokemon/charizard/mega_x/back.4bpp.lz");
@@ -3392,6 +3396,8 @@ const u32 gMonPalette_Wattrel[] = INCBIN_U32("graphics/pokemon/wattrel/normal.gb
 const u32 gMonPalette_Kilowattrel[] = INCBIN_U32("graphics/pokemon/kilowattrel/normal.gbapal.lz");
 const u32 gMonPalette_Toedscool[] = INCBIN_U32("graphics/pokemon/toedscool/normal.gbapal.lz");
 const u32 gMonPalette_Toedscruel[] = INCBIN_U32("graphics/pokemon/toedscruel/normal.gbapal.lz");
+const u32 gMonPalette_Capsakid[] = INCBIN_U32("graphics/pokemon/capsakid/normal.gbapal.lz");
+const u32 gMonPalette_Scovillain[] = INCBIN_U32("graphics/pokemon/scovillain/normal.gbapal.lz");
 #endif
 const u32 gMonPalette_VenusaurMega[] = INCBIN_U32("graphics/pokemon/venusaur/mega/normal.gbapal.lz");
 const u32 gMonPalette_CharizardMegaX[] = INCBIN_U32("graphics/pokemon/charizard/mega_x/normal.gbapal.lz");
@@ -4641,6 +4647,8 @@ const u32 gMonShinyPalette_Wattrel[] = INCBIN_U32("graphics/pokemon/wattrel/shin
 const u32 gMonShinyPalette_Kilowattrel[] = INCBIN_U32("graphics/pokemon/kilowattrel/shiny.gbapal.lz");
 const u32 gMonShinyPalette_Toedscool[] = INCBIN_U32("graphics/pokemon/toedscool/shiny.gbapal.lz");
 const u32 gMonShinyPalette_Toedscruel[] = INCBIN_U32("graphics/pokemon/toedscruel/shiny.gbapal.lz");
+const u32 gMonShinyPalette_Capsakid[] = INCBIN_U32("graphics/pokemon/capsakid/shiny.gbapal.lz");
+const u32 gMonShinyPalette_Scovillain[] = INCBIN_U32("graphics/pokemon/scovillain/shiny.gbapal.lz");
 #endif
 const u32 gMonShinyPalette_VenusaurMega[] = INCBIN_U32("graphics/pokemon/venusaur/mega/shiny.gbapal.lz");
 const u32 gMonShinyPalette_CharizardMegaX[] = INCBIN_U32("graphics/pokemon/charizard/mega_x/shiny.gbapal.lz");
@@ -5884,6 +5892,8 @@ const u8 gMonIcon_Wattrel[] = INCBIN_U8("graphics/pokemon/wattrel/icon.4bpp");
 const u8 gMonIcon_Kilowattrel[] = INCBIN_U8("graphics/pokemon/kilowattrel/icon.4bpp");
 const u8 gMonIcon_Toedscool[] = INCBIN_U8("graphics/pokemon/toedscool/icon.4bpp");
 const u8 gMonIcon_Toedscruel[] = INCBIN_U8("graphics/pokemon/toedscruel/icon.4bpp");
+const u8 gMonIcon_Capsakid[] = INCBIN_U8("graphics/pokemon/capsakid/icon.4bpp");
+const u8 gMonIcon_Scovillain[] = INCBIN_U8("graphics/pokemon/scovillain/icon.4bpp");
 #endif
 const u8 gMonIcon_VenusaurMega[] = INCBIN_U8("graphics/pokemon/venusaur/mega/icon.4bpp");
 const u8 gMonIcon_CharizardMegaX[] = INCBIN_U8("graphics/pokemon/charizard/mega_x/icon.4bpp");
@@ -7113,4 +7123,6 @@ const u8 gMonFootprint_Wattrel[] = INCBIN_U8("graphics/pokemon/wattrel/footprint
 const u8 gMonFootprint_Kilowattrel[] = INCBIN_U8("graphics/pokemon/kilowattrel/footprint.1bpp");
 const u8 gMonFootprint_Toedscool[] = INCBIN_U8("graphics/pokemon/toedscool/footprint.1bpp");
 const u8 gMonFootprint_Toedscruel[] = INCBIN_U8("graphics/pokemon/toedscruel/footprint.1bpp");
+const u8 gMonFootprint_Capsakid[] = INCBIN_U8("graphics/pokemon/capsakid/footprint.1bpp");
+const u8 gMonFootprint_Scovillain[] = INCBIN_U8("graphics/pokemon/scovillain/footprint.1bpp");
 #endif

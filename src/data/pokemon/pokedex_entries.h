@@ -11072,5 +11072,29 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 296,
         .trainerOffset = 1,
     },
+
+    [NATIONAL_DEX_CAPSAKID] =
+    {
+        .categoryName = _("Spicy Pepper"),
+        .height = 3,
+        .weight = 30,
+        .description = gCapsakidPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_SCOVILLAIN] =
+    {
+        .categoryName = _("Spicy Pepper"),
+        .height = 9,
+        .weight = 150,
+        .description = gScovillainPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
 #endif
 };

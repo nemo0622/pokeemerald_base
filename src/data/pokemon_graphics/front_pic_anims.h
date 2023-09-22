@@ -9607,6 +9607,18 @@ static const union AnimCmd sAnim_Toedscruel_1[] =
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
+
+static const union AnimCmd sAnim_Capsakid_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Scovillain_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
 #endif
 
 static const union AnimCmd sAnim_VenusaurMega_1[] =
@@ -11579,6 +11591,8 @@ SINGLE_ANIMATION(Wattrel);
 SINGLE_ANIMATION(Kilowattrel);
 SINGLE_ANIMATION(Toedscool);
 SINGLE_ANIMATION(Toedscruel);
+SINGLE_ANIMATION(Capsakid);
+SINGLE_ANIMATION(Scovillain);
 #endif
 SINGLE_ANIMATION(VenusaurMega);
 SINGLE_ANIMATION(CHARIZARD_MEGA_X);
@@ -12682,6 +12696,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_KILOWATTREL] = sAnims_Kilowattrel,
     [SPECIES_TOEDSCOOL] = sAnims_Toedscool,
     [SPECIES_TOEDSCRUEL] = sAnims_Toedscruel,
+    [SPECIES_CAPSAKID] = sAnims_Capsakid,
+    [SPECIES_SCOVILLAIN] = sAnims_Scovillain,
 #endif
     [SPECIES_VENUSAUR_MEGA] = sAnims_VenusaurMega,
     [SPECIES_CHARIZARD_MEGA_X] = sAnims_CHARIZARD_MEGA_X,

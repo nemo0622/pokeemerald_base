@@ -931,6 +931,8 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     [SPECIES_KILOWATTREL] = sKilowattrelTeachableLearnset,
     [SPECIES_TOEDSCOOL] = sToedscoolTeachableLearnset,
     [SPECIES_TOEDSCRUEL] = sToedscruelTeachableLearnset,
+    [SPECIES_CAPSAKID] = sCapsakidTeachableLearnset,
+    [SPECIES_SCOVILLAIN] = sScovillainTeachableLearnset,
 #endif
     // Megas
     [SPECIES_VENUSAUR_MEGA] = sVenusaurTeachableLearnset,

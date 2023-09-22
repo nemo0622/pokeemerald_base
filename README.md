@@ -43,6 +43,7 @@ Note: All credit for this base goes to these creators!! I just did the merging a
     - Charcadet, Armarouge, and Ceruledge
     - Wattrel and Kilowattrel
     - Toedscool and Toedscruel
+    - Capsakid and Scovillain
 
 ## Known Issues, Future Plans, & Credits!
 
@@ -65,7 +66,6 @@ FUTURE PLANS:
     - Add support for individual Pokémon forms (ex: Rotom forms, Oricorio forms, etc.)
     - Improve some follower sprites (Archeops is the most extreme case lol)
 - More Generation 9 Pokémon
-    - Scovillain Line
     - Tinkaton Line
     - Cetitan Line
     - Annihilape, Clodsire, Farigiraf, Dundunsparce, and Kingambit

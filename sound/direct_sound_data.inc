@@ -4079,6 +4079,14 @@ Cry_Toedscool::
 Cry_Toedscruel::
 	.incbin "sound/direct_sound_samples/cries/toedscruel.bin"
 
+	.align 2
+Cry_Capsakid::
+	.incbin "sound/direct_sound_samples/cries/capsakid.bin"
+
+	.align 2
+Cry_Scovillain::
+	.incbin "sound/direct_sound_samples/cries/scovillain.bin"
+
 .endif
 
 	.align 2
