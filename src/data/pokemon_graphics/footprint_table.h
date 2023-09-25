@@ -926,6 +926,9 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_TOEDSCRUEL] = gMonFootprint_Toedscruel,
     [SPECIES_CAPSAKID] = gMonFootprint_Capsakid,
     [SPECIES_SCOVILLAIN] = gMonFootprint_Scovillain,
+    [SPECIES_TINKATINK] = gMonFootprint_Tinkatink,
+    [SPECIES_TINKATUFF] = gMonFootprint_Tinkatuff,
+    [SPECIES_TINKATON] = gMonFootprint_Tinkaton,
 #endif
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

@@ -932,6 +932,9 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_TOEDSCRUEL] = _("Toedscruel"),
     [SPECIES_CAPSAKID] = _("Capsakid"),
     [SPECIES_SCOVILLAIN] = _("Scovillain"),
+    [SPECIES_TINKATINK] = _("Tinkatink"),
+    [SPECIES_TINKATUFF] = _("Tinkatuff"),
+    [SPECIES_TINKATON] = _("Tinkaton"),
 #endif
 
     // Megas

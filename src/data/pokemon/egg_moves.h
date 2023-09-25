@@ -4286,6 +4286,11 @@ const u16 gEggMoves[] = {
         MOVE_RAGE_POWDER,
         MOVE_ROLLOUT,
         MOVE_WORRY_SEED),
+
+    egg_moves(TINKATINK,
+        MOVE_FEINT,
+        MOVE_ICE_HAMMER,
+        MOVE_QUASH),
 #endif
 
     egg_moves(RATTATA_ALOLAN,

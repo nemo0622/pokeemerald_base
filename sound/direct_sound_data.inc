@@ -4087,6 +4087,18 @@ Cry_Capsakid::
 Cry_Scovillain::
 	.incbin "sound/direct_sound_samples/cries/scovillain.bin"
 
+	.align 2
+Cry_Tinkatink::
+	.incbin "sound/direct_sound_samples/cries/tinkatink.bin"
+
+	.align 2
+Cry_Tinkatuff::
+	.incbin "sound/direct_sound_samples/cries/tinkatuff.bin"
+
+	.align 2
+Cry_Tinkaton::
+	.incbin "sound/direct_sound_samples/cries/tinkaton.bin"
+
 .endif
 
 	.align 2

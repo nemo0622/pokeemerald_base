@@ -44,6 +44,7 @@ Note: All credit for this base goes to these creators!! I just did the merging a
     - Wattrel and Kilowattrel
     - Toedscool and Toedscruel
     - Capsakid and Scovillain
+    - Tinkatink, Tinkatuff, and Tinkaton
 
 ## Known Issues, Future Plans, & Credits!
 
@@ -66,8 +67,8 @@ FUTURE PLANS:
     - Add support for individual Pokémon forms (ex: Rotom forms, Oricorio forms, etc.)
     - Improve some follower sprites (Archeops is the most extreme case lol)
 - More Generation 9 Pokémon
-    - Tinkaton Line
     - Cetitan Line
+    - Baxcalibur Line
     - Annihilape, Clodsire, Farigiraf, Dundunsparce, and Kingambit
     - Great Tusk, Slither Wing, Roaring Moon
     - Iron Treads, Iron Thorns, Iron Valiant

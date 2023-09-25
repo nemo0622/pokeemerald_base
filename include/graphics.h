@@ -1011,6 +1011,9 @@ extern const u32 gMonFrontPic_Toedscool[];
 extern const u32 gMonFrontPic_Toedscruel[];
 extern const u32 gMonFrontPic_Capsakid[];
 extern const u32 gMonFrontPic_Scovillain[];
+extern const u32 gMonFrontPic_Tinkatink[];
+extern const u32 gMonFrontPic_Tinkatuff[];
+extern const u32 gMonFrontPic_Tinkaton[];
 #endif
 extern const u32 gMonFrontPic_VenusaurMega[];
 extern const u32 gMonFrontPic_CharizardMegaX[];
@@ -2243,6 +2246,9 @@ extern const u32 gMonBackPic_Toedscool[];
 extern const u32 gMonBackPic_Toedscruel[];
 extern const u32 gMonBackPic_Capsakid[];
 extern const u32 gMonBackPic_Scovillain[];
+extern const u32 gMonBackPic_Tinkatink[];
+extern const u32 gMonBackPic_Tinkatuff[];
+extern const u32 gMonBackPic_Tinkaton[];
 #endif
 extern const u32 gMonBackPic_VenusaurMega[];
 extern const u32 gMonBackPic_CharizardMegaX[];
@@ -3467,6 +3473,9 @@ extern const u32 gMonPalette_Toedscool[];
 extern const u32 gMonPalette_Toedscruel[];
 extern const u32 gMonPalette_Capsakid[];
 extern const u32 gMonPalette_Scovillain[];
+extern const u32 gMonPalette_Tinkatink[];
+extern const u32 gMonPalette_Tinkatuff[];
+extern const u32 gMonPalette_Tinkaton[];
 #endif
 extern const u32 gMonPalette_VenusaurMega[];
 extern const u32 gMonPalette_CharizardMegaX[];
@@ -4718,6 +4727,9 @@ extern const u32 gMonShinyPalette_Toedscool[];
 extern const u32 gMonShinyPalette_Toedscruel[];
 extern const u32 gMonShinyPalette_Capsakid[];
 extern const u32 gMonShinyPalette_Scovillain[];
+extern const u32 gMonShinyPalette_Tinkatink[];
+extern const u32 gMonShinyPalette_Tinkatuff[];
+extern const u32 gMonShinyPalette_Tinkaton[];
 #endif
 extern const u32 gMonShinyPalette_VenusaurMega[];
 extern const u32 gMonShinyPalette_CharizardMegaX[];
@@ -5963,6 +5975,9 @@ extern const u8 gMonIcon_Toedscool[];
 extern const u8 gMonIcon_Toedscruel[];
 extern const u8 gMonIcon_Capsakid[];
 extern const u8 gMonIcon_Scovillain[];
+extern const u8 gMonIcon_Tinkatink[];
+extern const u8 gMonIcon_Tinkatuff[];
+extern const u8 gMonIcon_Tinkaton[];
 #endif
 extern const u8 gMonIcon_VenusaurMega[];
 extern const u8 gMonIcon_CharizardMegaX[];
@@ -7194,6 +7209,9 @@ extern const u8 gMonFootprint_Toedscool[];
 extern const u8 gMonFootprint_Toedscruel[];
 extern const u8 gMonFootprint_Capsakid[];
 extern const u8 gMonFootprint_Scovillain[];
+extern const u8 gMonFootprint_Tinkatink[];
+extern const u8 gMonFootprint_Tinkatuff[];
+extern const u8 gMonFootprint_Tinkaton[];
 #endif
 
 // trainer sprites

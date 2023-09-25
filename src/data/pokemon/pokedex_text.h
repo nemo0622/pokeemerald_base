@@ -5506,4 +5506,22 @@ const u8 gScovillainPokedexText[] = _(
     "from spicy chemicals to blast\n"
     "opponents. The green head is vicious,\n"
     "often going on a rampage.");
+
+const u8 gTinkatinkPokedexText[] = _(
+    "It swings a handmade hammer\n"
+    "around to protect itself, but the\n"
+    "hammer is often stolen by Pokémon\n"
+    "that eat metal.");
+
+const u8 gTinkatuffPokedexText[] = _(
+    "This Pokémon will attack groups of\n"
+    "Pawinard and Bisharp, gathering\n"
+    "metal from them to create a large\n"
+    "and sturdy hammer.");
+
+const u8 gTinkatonPokedexText[] = _(
+    "This intelligent Pokémon has a\n"
+    "very daring disposition. It knocks\n"
+    "rocks into the sky with its hammer,\n"
+    "aiming for flying Corviknight.");
 #endif

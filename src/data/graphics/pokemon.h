@@ -944,6 +944,9 @@ const u32 gMonFrontPic_Toedscool[] = INCBIN_U32("graphics/pokemon/toedscool/anim
 const u32 gMonFrontPic_Toedscruel[] = INCBIN_U32("graphics/pokemon/toedscruel/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Capsakid[] = INCBIN_U32("graphics/pokemon/capsakid/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Scovillain[] = INCBIN_U32("graphics/pokemon/scovillain/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Tinkatink[] = INCBIN_U32("graphics/pokemon/tinkatink/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Tinkatuff[] = INCBIN_U32("graphics/pokemon/tinkatuff/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Tinkaton[] = INCBIN_U32("graphics/pokemon/tinkaton/anim_front.4bpp.lz");
 #endif
 const u32 gMonFrontPic_VenusaurMega[] = INCBIN_U32("graphics/pokemon/venusaur/mega/front.4bpp.lz");
 const u32 gMonFrontPic_CharizardMegaX[] = INCBIN_U32("graphics/pokemon/charizard/mega_x/front.4bpp.lz");
@@ -2174,6 +2177,9 @@ const u32 gMonBackPic_Toedscool[] = INCBIN_U32("graphics/pokemon/toedscool/back.
 const u32 gMonBackPic_Toedscruel[] = INCBIN_U32("graphics/pokemon/toedscruel/back.4bpp.lz");
 const u32 gMonBackPic_Capsakid[] = INCBIN_U32("graphics/pokemon/capsakid/back.4bpp.lz");
 const u32 gMonBackPic_Scovillain[] = INCBIN_U32("graphics/pokemon/scovillain/back.4bpp.lz");
+const u32 gMonBackPic_Tinkatink[] = INCBIN_U32("graphics/pokemon/tinkatink/back.4bpp.lz");
+const u32 gMonBackPic_Tinkatuff[] = INCBIN_U32("graphics/pokemon/tinkatuff/back.4bpp.lz");
+const u32 gMonBackPic_Tinkaton[] = INCBIN_U32("graphics/pokemon/tinkaton/back.4bpp.lz");
 #endif
 const u32 gMonBackPic_VenusaurMega[] = INCBIN_U32("graphics/pokemon/venusaur/mega/back.4bpp.lz");
 const u32 gMonBackPic_CharizardMegaX[] = INCBIN_U32("graphics/pokemon/charizard/mega_x/back.4bpp.lz");
@@ -3398,6 +3404,9 @@ const u32 gMonPalette_Toedscool[] = INCBIN_U32("graphics/pokemon/toedscool/norma
 const u32 gMonPalette_Toedscruel[] = INCBIN_U32("graphics/pokemon/toedscruel/normal.gbapal.lz");
 const u32 gMonPalette_Capsakid[] = INCBIN_U32("graphics/pokemon/capsakid/normal.gbapal.lz");
 const u32 gMonPalette_Scovillain[] = INCBIN_U32("graphics/pokemon/scovillain/normal.gbapal.lz");
+const u32 gMonPalette_Tinkatink[] = INCBIN_U32("graphics/pokemon/tinkatink/normal.gbapal.lz");
+const u32 gMonPalette_Tinkatuff[] = INCBIN_U32("graphics/pokemon/tinkatuff/normal.gbapal.lz");
+const u32 gMonPalette_Tinkaton[] = INCBIN_U32("graphics/pokemon/tinkaton/normal.gbapal.lz");
 #endif
 const u32 gMonPalette_VenusaurMega[] = INCBIN_U32("graphics/pokemon/venusaur/mega/normal.gbapal.lz");
 const u32 gMonPalette_CharizardMegaX[] = INCBIN_U32("graphics/pokemon/charizard/mega_x/normal.gbapal.lz");
@@ -4649,6 +4658,9 @@ const u32 gMonShinyPalette_Toedscool[] = INCBIN_U32("graphics/pokemon/toedscool/
 const u32 gMonShinyPalette_Toedscruel[] = INCBIN_U32("graphics/pokemon/toedscruel/shiny.gbapal.lz");
 const u32 gMonShinyPalette_Capsakid[] = INCBIN_U32("graphics/pokemon/capsakid/shiny.gbapal.lz");
 const u32 gMonShinyPalette_Scovillain[] = INCBIN_U32("graphics/pokemon/scovillain/shiny.gbapal.lz");
+const u32 gMonShinyPalette_Tinkatink[] = INCBIN_U32("graphics/pokemon/tinkatink/shiny.gbapal.lz");
+const u32 gMonShinyPalette_Tinkatuff[] = INCBIN_U32("graphics/pokemon/tinkatuff/shiny.gbapal.lz");
+const u32 gMonShinyPalette_Tinkaton[] = INCBIN_U32("graphics/pokemon/tinkaton/shiny.gbapal.lz");
 #endif
 const u32 gMonShinyPalette_VenusaurMega[] = INCBIN_U32("graphics/pokemon/venusaur/mega/shiny.gbapal.lz");
 const u32 gMonShinyPalette_CharizardMegaX[] = INCBIN_U32("graphics/pokemon/charizard/mega_x/shiny.gbapal.lz");
@@ -5894,6 +5906,9 @@ const u8 gMonIcon_Toedscool[] = INCBIN_U8("graphics/pokemon/toedscool/icon.4bpp"
 const u8 gMonIcon_Toedscruel[] = INCBIN_U8("graphics/pokemon/toedscruel/icon.4bpp");
 const u8 gMonIcon_Capsakid[] = INCBIN_U8("graphics/pokemon/capsakid/icon.4bpp");
 const u8 gMonIcon_Scovillain[] = INCBIN_U8("graphics/pokemon/scovillain/icon.4bpp");
+const u8 gMonIcon_Tinkatink[] = INCBIN_U8("graphics/pokemon/tinkatink/icon.4bpp");
+const u8 gMonIcon_Tinkatuff[] = INCBIN_U8("graphics/pokemon/tinkatuff/icon.4bpp");
+const u8 gMonIcon_Tinkaton[] = INCBIN_U8("graphics/pokemon/tinkaton/icon.4bpp");
 #endif
 const u8 gMonIcon_VenusaurMega[] = INCBIN_U8("graphics/pokemon/venusaur/mega/icon.4bpp");
 const u8 gMonIcon_CharizardMegaX[] = INCBIN_U8("graphics/pokemon/charizard/mega_x/icon.4bpp");
@@ -7125,4 +7140,7 @@ const u8 gMonFootprint_Toedscool[] = INCBIN_U8("graphics/pokemon/toedscool/footp
 const u8 gMonFootprint_Toedscruel[] = INCBIN_U8("graphics/pokemon/toedscruel/footprint.1bpp");
 const u8 gMonFootprint_Capsakid[] = INCBIN_U8("graphics/pokemon/capsakid/footprint.1bpp");
 const u8 gMonFootprint_Scovillain[] = INCBIN_U8("graphics/pokemon/scovillain/footprint.1bpp");
+const u8 gMonFootprint_Tinkatink[] = INCBIN_U8("graphics/pokemon/tinkatink/footprint.1bpp");
+const u8 gMonFootprint_Tinkatuff[] = INCBIN_U8("graphics/pokemon/tinkatuff/footprint.1bpp");
+const u8 gMonFootprint_Tinkaton[] = INCBIN_U8("graphics/pokemon/tinkaton/footprint.1bpp");
 #endif

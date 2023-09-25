@@ -11096,5 +11096,41 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 296,
         .trainerOffset = 1,
     },
+
+    [NATIONAL_DEX_TINKATINK] =
+    {
+        .categoryName = _("Metalsmith"),
+        .height = 4,
+        .weight = 89,
+        .description = gTinkatinkPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_TINKATUFF] =
+    {
+        .categoryName = _("Hammer"),
+        .height = 7,
+        .weight = 591,
+        .description = gTinkatuffPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_TINKATON] =
+    {
+        .categoryName = _("Hammer"),
+        .height = 7,
+        .weight = 1128,
+        .description = gTinkatonPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
 #endif
 };

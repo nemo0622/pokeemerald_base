@@ -1018,6 +1018,9 @@ static const u8 sSpeciesToBackAnimSet[NUM_SPECIES] =
     [SPECIES_TOEDSCRUEL]                    = BACK_ANIM_H_SPRING_REPEATED,
     [SPECIES_CAPSAKID]                    = BACK_ANIM_H_SHAKE,
     [SPECIES_SCOVILLAIN]                    = BACK_ANIM_H_SHAKE,
+    [SPECIES_TINKATINK]                    = BACK_ANIM_JOLT_RIGHT,
+    [SPECIES_TINKATUFF]                    = BACK_ANIM_JOLT_RIGHT,
+    [SPECIES_TINKATON]                    = BACK_ANIM_JOLT_RIGHT,
     
         //Gen 6 Forms
     [SPECIES_GRENINJA_ASH]                 = BACK_ANIM_SHAKE_GLOW_BLUE,
