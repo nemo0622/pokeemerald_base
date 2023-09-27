@@ -1362,6 +1362,24 @@ gCryTable::
 	cry Cry_Tinkatink
 	cry Cry_Tinkatuff
 	cry Cry_Tinkaton
+	cry Cry_Cetoddle
+	cry Cry_Cetitan
+	cry Cry_Annihilape
+	cry Cry_Clodsire
+	cry Cry_Farigiraf
+	cry Cry_Dundunsparce
+	cry Cry_Kingambit
+	cry Cry_Great_Tusk
+	cry Cry_Slither_Wing
+	cry Cry_Iron_Treads
+	cry Cry_Iron_Moth
+	cry Cry_Frigibax
+	cry Cry_Arctibax
+	cry Cry_Baxcalibur
+	cry Cry_Roaring_Moon
+	cry Cry_Iron_Valiant
+	cry Cry_Poltchageist
+	cry Cry_Sinistcha
 .else
 	cry Cry_Unown
 	cry Cry_Unown
@@ -3504,6 +3522,24 @@ gCryTable_Reverse::
 	cry_reverse Cry_Tinkatink
 	cry_reverse Cry_Tinkatuff
 	cry_reverse Cry_Tinkaton
+	cry_reverse Cry_Cetoddle
+	cry_reverse Cry_Cetitan
+	cry_reverse Cry_Annihilape
+	cry_reverse Cry_Clodsire
+	cry_reverse Cry_Farigiraf
+	cry_reverse Cry_Dundunsparce
+	cry_reverse Cry_Kingambit
+	cry_reverse Cry_Great_Tusk
+	cry_reverse Cry_Slither_Wing
+	cry_reverse Cry_Iron_Treads
+	cry_reverse Cry_Iron_Moth
+	cry_reverse Cry_Frigibax
+	cry_reverse Cry_Arctibax
+	cry_reverse Cry_Baxcalibur
+	cry_reverse Cry_Roaring_Moon
+	cry_reverse Cry_Iron_Valiant
+	cry_reverse Cry_Poltchageist
+	cry_reverse Cry_Sinistcha
 .else
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown

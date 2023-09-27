@@ -4291,6 +4291,13 @@ const u16 gEggMoves[] = {
         MOVE_FEINT,
         MOVE_ICE_HAMMER,
         MOVE_QUASH),
+
+    egg_moves(CETODDLE,
+        MOVE_BELLY_DRUM,
+        MOVE_ENTRAINMENT,
+        MOVE_ICICLE_CRASH,
+        MOVE_SUPERPOWER,
+        MOVE_YAWN),
 #endif
 
     egg_moves(RATTATA_ALOLAN,

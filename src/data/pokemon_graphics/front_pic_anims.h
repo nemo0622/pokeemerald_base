@@ -9637,6 +9637,114 @@ static const union AnimCmd sAnim_Tinkaton_1[] =
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
+
+static const union AnimCmd sAnim_Cetoddle_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Cetitan_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Annihilape_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Clodsire_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Farigiraf_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Dundunsparce_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Kingambit_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Great_Tusk_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Slither_Wing_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Iron_Treads_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Iron_Moth_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Frigibax_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Arctibax_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Baxcalibur_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Roaring_Moon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Iron_Valiant_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Poltchageist_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Sinistcha_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
 #endif
 
 static const union AnimCmd sAnim_VenusaurMega_1[] =
@@ -11614,6 +11722,24 @@ SINGLE_ANIMATION(Scovillain);
 SINGLE_ANIMATION(Tinkatink);
 SINGLE_ANIMATION(Tinkatuff);
 SINGLE_ANIMATION(Tinkaton);
+SINGLE_ANIMATION(Cetoddle);
+SINGLE_ANIMATION(Cetitan);
+SINGLE_ANIMATION(Annihilape);
+SINGLE_ANIMATION(Clodsire);
+SINGLE_ANIMATION(Farigiraf);
+SINGLE_ANIMATION(Dundunsparce);
+SINGLE_ANIMATION(Kingambit);
+SINGLE_ANIMATION(Great_Tusk);
+SINGLE_ANIMATION(Slither_Wing);
+SINGLE_ANIMATION(Iron_Treads);
+SINGLE_ANIMATION(Iron_Moth);
+SINGLE_ANIMATION(Frigibax);
+SINGLE_ANIMATION(Arctibax);
+SINGLE_ANIMATION(Baxcalibur);
+SINGLE_ANIMATION(Roaring_Moon);
+SINGLE_ANIMATION(Iron_Valiant);
+SINGLE_ANIMATION(Poltchageist);
+SINGLE_ANIMATION(Sinistcha);
 #endif
 SINGLE_ANIMATION(VenusaurMega);
 SINGLE_ANIMATION(CHARIZARD_MEGA_X);
@@ -12722,6 +12848,24 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_TINKATINK] = sAnims_Tinkatink,
     [SPECIES_TINKATUFF] = sAnims_Tinkatuff,
     [SPECIES_TINKATON] = sAnims_Tinkaton,
+    [SPECIES_CETODDLE] = sAnims_Cetoddle,
+    [SPECIES_CETITAN] = sAnims_Cetitan,
+    [SPECIES_ANNIHILAPE] = sAnims_Annihilape,
+    [SPECIES_CLODSIRE] = sAnims_Clodsire,
+    [SPECIES_FARIGIRAF] = sAnims_Farigiraf,
+    [SPECIES_DUNDUNSPARCE] = sAnims_Dundunsparce,
+    [SPECIES_KINGAMBIT] = sAnims_Kingambit,
+    [SPECIES_GREAT_TUSK] = sAnims_Great_Tusk,
+    [SPECIES_SLITHER_WING] = sAnims_Slither_Wing,
+    [SPECIES_IRON_TREADS] = sAnims_Iron_Treads,
+    [SPECIES_IRON_MOTH] = sAnims_Iron_Moth,
+    [SPECIES_FRIGIBAX] = sAnims_Frigibax,
+    [SPECIES_ARCTIBAX] = sAnims_Arctibax,
+    [SPECIES_BAXCALIBUR] = sAnims_Baxcalibur,
+    [SPECIES_ROARING_MOON] = sAnims_Roaring_Moon,
+    [SPECIES_IRON_VALIANT] = sAnims_Iron_Valiant,
+    [SPECIES_POLTCHAGEIST] = sAnims_Poltchageist,
+    [SPECIES_SINISTCHA] = sAnims_Sinistcha,
 #endif
     [SPECIES_VENUSAUR_MEGA] = sAnims_VenusaurMega,
     [SPECIES_CHARIZARD_MEGA_X] = sAnims_CHARIZARD_MEGA_X,

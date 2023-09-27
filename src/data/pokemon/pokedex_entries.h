@@ -11132,5 +11132,221 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 296,
         .trainerOffset = 1,
     },
+
+    [NATIONAL_DEX_CETODDLE] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gCetoddlePokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_CETITAN] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 45,
+        .weight = 7000,
+        .description = gCetitanPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_ANNIHILAPE] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gAnnihilapePokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_CLODSIRE] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gClodsirePokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_FARIGIRAF] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gFarigirafPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_DUNDUNSPARCE] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gDundunsparcePokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_KINGAMBIT] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gKingambitPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_GREAT_TUSK] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gGreat_TuskPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_SLITHER_WING] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gSlither_WingPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_IRON_TREADS] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gIron_TreadsPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_IRON_MOTH] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gIron_MothPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_FRIGIBAX] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gFrigibaxPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_ARCTIBAX] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gArctibaxPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_BAXCALIBUR] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gBaxcaliburPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_ROARING_MOON] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gRoaring_MoonPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_IRON_VALIANT] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gIron_ValiantPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_POLTCHAGEIST] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gPoltchageistPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+    [NATIONAL_DEX_SINISTCHA] =
+    {
+        .categoryName = _("Terra Whale"),
+        .height = 12,
+        .weight = 450,
+        .description = gSinistchaPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
 #endif
 };

@@ -615,5 +615,6 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_CAPSAKID]              = {{EVO_ITEM, ITEM_FIRE_STONE, SPECIES_SCOVILLAIN}},
     [SPECIES_TINKATINK]             = {{EVO_LEVEL, 24, SPECIES_TINKATUFF}},
     [SPECIES_TINKATUFF]             = {{EVO_LEVEL, 38, SPECIES_TINKATON}},
+    [SPECIES_CETODDLE]              = {{EVO_ITEM, ITEM_ICE_STONE, SPECIES_CETITAN}},
 #endif
 };

@@ -5524,4 +5524,112 @@ const u8 gTinkatonPokedexText[] = _(
     "very daring disposition. It knocks\n"
     "rocks into the sky with its hammer,\n"
     "aiming for flying Corviknight.");
+
+const u8 gCetoddlePokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gCetitanPokedexText[] = _(
+    "This Pokémon wanders around snowy,\n"
+    "icy areas. It protects its body with\n"
+    "powerful muscles and a thick layer\n"
+    "of fat under its skin.");
+
+const u8 gAnnihilapePokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gClodsirePokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gFarigirafPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gDundunsparcePokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gKingambitPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gGreat_TuskPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gSlither_WingPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gIron_TreadsPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gIron_MothPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gFrigibaxPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gArctibaxPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gBaxcaliburPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gRoaring_MoonPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gIron_ValiantPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gPoltchageistPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
+
+const u8 gSinistchaPokedexText[] = _(
+    "This species left the ocean and\n"
+    "began to live on land a very long\n"
+    "time ago. It seems to be closely\n"
+    "related to Wailmer.");
 #endif

@@ -4099,6 +4099,78 @@ Cry_Tinkatuff::
 Cry_Tinkaton::
 	.incbin "sound/direct_sound_samples/cries/tinkaton.bin"
 
+	.align 2
+Cry_Cetoddle::
+	.incbin "sound/direct_sound_samples/cries/cetoddle.bin"
+
+	.align 2
+Cry_Cetitan::
+	.incbin "sound/direct_sound_samples/cries/cetitan.bin"
+
+	.align 2
+Cry_Annihilape::
+	.incbin "sound/direct_sound_samples/cries/annihilape.bin"
+
+	.align 2
+Cry_Clodsire::
+	.incbin "sound/direct_sound_samples/cries/clodsire.bin"
+
+	.align 2
+Cry_Farigiraf::
+	.incbin "sound/direct_sound_samples/cries/farigiraf.bin"
+
+	.align 2
+Cry_Dundunsparce::
+	.incbin "sound/direct_sound_samples/cries/dundunsparce.bin"
+
+	.align 2
+Cry_Kingambit::
+	.incbin "sound/direct_sound_samples/cries/kingambit.bin"
+
+	.align 2
+Cry_Great_Tusk::
+	.incbin "sound/direct_sound_samples/cries/great_tusk.bin"
+
+	.align 2
+Cry_Slither_Wing::
+	.incbin "sound/direct_sound_samples/cries/slither_wing.bin"
+
+	.align 2
+Cry_Iron_Treads::
+	.incbin "sound/direct_sound_samples/cries/iron_treads.bin"
+
+	.align 2
+Cry_Iron_Moth::
+	.incbin "sound/direct_sound_samples/cries/iron_moth.bin"
+
+	.align 2
+Cry_Frigibax::
+	.incbin "sound/direct_sound_samples/cries/frigibax.bin"
+
+	.align 2
+Cry_Arctibax::
+	.incbin "sound/direct_sound_samples/cries/arctibax.bin"
+
+	.align 2
+Cry_Baxcalibur::
+	.incbin "sound/direct_sound_samples/cries/baxcalibur.bin"
+
+	.align 2
+Cry_Roaring_Moon::
+	.incbin "sound/direct_sound_samples/cries/roaring_moon.bin"
+
+	.align 2
+Cry_Iron_Valiant::
+	.incbin "sound/direct_sound_samples/cries/iron_valiant.bin"
+
+	.align 2
+Cry_Poltchageist::
+	.incbin "sound/direct_sound_samples/cries/poltchageist.bin"
+
+	.align 2
+Cry_Sinistcha::
+	.incbin "sound/direct_sound_samples/cries/sinistcha.bin"
+
 .endif
 
 	.align 2
