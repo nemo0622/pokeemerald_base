@@ -45,6 +45,12 @@ Note: All credit for this base goes to these creators!! I just did the merging a
     - Toedscool and Toedscruel
     - Capsakid and Scovillain
     - Tinkatink, Tinkatuff, and Tinkaton
+    - Cetoddle and Cetitan
+    - Frigibax, Arctibax, and Baxcalibur
+    - Annihilape, Clodsire, Farigiraf, Dundunsparce, and Kingambit
+    - Roaring Moon, Great Tusk, and Slither Wing
+    - Iron Valiant, Iron Treads, and Iron Moth
+    - Poltchageist and Sinistcha
 
 ## Known Issues, Future Plans, & Credits!
 
@@ -67,11 +73,9 @@ FUTURE PLANS:
     - Add support for individual Pokémon forms (ex: Rotom forms, Oricorio forms, etc.)
     - Improve some follower sprites (Archeops is the most extreme case lol)
 - More Generation 9 Pokémon
-    - Cetitan Line
-    - Baxcalibur Line
-    - Annihilape, Clodsire, Farigiraf, Dundunsparce, and Kingambit
-    - Great Tusk, Slither Wing, Roaring Moon
-    - Iron Treads, Iron Thorns, Iron Valiant
+    - Legendaries
+    - Paradox Forms
+- Shiny forms and correct cries for Gen 9 Pokémon
 
 CREDITS:
 - RHH Team for the pokeemerald Expansion project
