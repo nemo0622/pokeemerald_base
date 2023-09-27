@@ -4298,6 +4298,20 @@ const u16 gEggMoves[] = {
         MOVE_ICICLE_CRASH,
         MOVE_SUPERPOWER,
         MOVE_YAWN),
+
+    egg_moves(WOOPER_PALDEAN,
+        MOVE_ACID_SPRAY,
+        MOVE_AFTER_YOU,
+        MOVE_ANCIENT_POWER,
+        MOVE_COUNTER,
+        MOVE_CURSE,
+        MOVE_DOUBLE_KICK,
+        MOVE_HAZE,
+        MOVE_MIST,
+        MOVE_RECOVER,
+        MOVE_SPIT_UP,
+        MOVE_STOCKPILE,
+        MOVE_SWALLOW),
 #endif
 
     egg_moves(RATTATA_ALOLAN,

@@ -1077,6 +1077,7 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(DECIDUEYE_HISUIAN, gMonFrontPic_DecidueyeHisuian),
 #endif
 
+    SPECIES_SPRITE(WOOPER_PALDEAN, gMonFrontPic_WooperPaldean),
     SPECIES_SPRITE(PIKACHU_COSPLAY, gMonFrontPic_PikachuCosplay),
     SPECIES_SPRITE(PIKACHU_ROCK_STAR, gMonFrontPic_PikachuRockStar),
     SPECIES_SPRITE(PIKACHU_BELLE, gMonFrontPic_PikachuBelle),

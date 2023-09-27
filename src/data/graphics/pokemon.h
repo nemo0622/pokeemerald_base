@@ -1083,6 +1083,7 @@ const u32 gMonFrontPic_AvaluggHisuian[] = INCBIN_U32("graphics/pokemon/avalugg/h
 #if P_GEN_7_POKEMON == TRUE
 const u32 gMonFrontPic_DecidueyeHisuian[] = INCBIN_U32("graphics/pokemon/decidueye/hisuian/front.4bpp.lz");
 #endif
+const u32 gMonFrontPic_WooperPaldean[] = INCBIN_U32("graphics/pokemon/wooper/paldean/anim_front.4bpp.lz");
 const u32 gMonFrontPic_PikachuCosplay[] = INCBIN_U32("graphics/pokemon/pikachu/cosplay/front.4bpp.lz");
 const u32 gMonFrontPic_PikachuRockStar[] = INCBIN_U32("graphics/pokemon/pikachu/rock_star/front.4bpp.lz");
 const u32 gMonFrontPic_PikachuBelle[] = INCBIN_U32("graphics/pokemon/pikachu/belle/front.4bpp.lz");
@@ -2334,6 +2335,7 @@ const u32 gMonBackPic_AvaluggHisuian[] = INCBIN_U32("graphics/pokemon/avalugg/hi
 #if P_GEN_7_POKEMON == TRUE
 const u32 gMonBackPic_DecidueyeHisuian[] = INCBIN_U32("graphics/pokemon/decidueye/hisuian/back.4bpp.lz");
 #endif
+const u32 gMonBackPic_WooperPaldean[] = INCBIN_U32("graphics/pokemon/wooper/paldean/back.4bpp.lz");
 const u32 gMonBackPic_PikachuCosplay[] = INCBIN_U32("graphics/pokemon/pikachu/cosplay/back.4bpp.lz");
 const u32 gMonBackPic_PikachuRockStar[] = INCBIN_U32("graphics/pokemon/pikachu/rock_star/back.4bpp.lz");
 const u32 gMonBackPic_PikachuBelle[] = INCBIN_U32("graphics/pokemon/pikachu/belle/back.4bpp.lz");
@@ -3579,6 +3581,7 @@ const u32 gMonPalette_AvaluggHisuian[] = INCBIN_U32("graphics/pokemon/avalugg/hi
 #if P_GEN_7_POKEMON == TRUE
 const u32 gMonPalette_DecidueyeHisuian[] = INCBIN_U32("graphics/pokemon/decidueye/hisuian/normal.gbapal.lz");
 #endif
+const u32 gMonPalette_WooperPaldean[] = INCBIN_U32("graphics/pokemon/wooper/paldean/normal.gbapal.lz");
 const u32 gMonPalette_PikachuCosplay[] = INCBIN_U32("graphics/pokemon/pikachu/cosplay/normal.gbapal.lz");
 const u32 gMonPalette_PikachuRockStar[] = INCBIN_U32("graphics/pokemon/pikachu/rock_star/normal.gbapal.lz");
 const u32 gMonPalette_PikachuBelle[] = INCBIN_U32("graphics/pokemon/pikachu/belle/normal.gbapal.lz");
@@ -4851,6 +4854,7 @@ const u32 gMonShinyPalette_AvaluggHisuian[] = INCBIN_U32("graphics/pokemon/avalu
 #if P_GEN_7_POKEMON == TRUE
 const u32 gMonShinyPalette_DecidueyeHisuian[] = INCBIN_U32("graphics/pokemon/decidueye/hisuian/shiny.gbapal.lz");
 #endif
+const u32 gMonShinyPalette_WooperPaldean[] = INCBIN_U32("graphics/pokemon/wooper/paldean/shiny.gbapal.lz");
 const u32 gMonShinyPalette_PikachuCosplay[] = INCBIN_U32("graphics/pokemon/pikachu/cosplay/shiny.gbapal.lz");
 const u32 gMonShinyPalette_PikachuRockStar[] = INCBIN_U32("graphics/pokemon/pikachu/rock_star/shiny.gbapal.lz");
 const u32 gMonShinyPalette_PikachuBelle[] = INCBIN_U32("graphics/pokemon/pikachu/belle/shiny.gbapal.lz");
@@ -6117,6 +6121,7 @@ const u8 gMonIcon_AvaluggHisuian[] = INCBIN_U8("graphics/pokemon/avalugg/hisuian
 #if P_GEN_7_POKEMON == TRUE
 const u8 gMonIcon_DecidueyeHisuian[] = INCBIN_U8("graphics/pokemon/decidueye/hisuian/icon.4bpp");
 #endif
+const u8 gMonIcon_WooperPaldean[] = INCBIN_U8("graphics/pokemon/wooper/paldean/icon.4bpp");
 const u8 gMonIcon_PikachuCosplay[] = INCBIN_U8("graphics/pokemon/pikachu/cosplay/icon.4bpp");
 const u8 gMonIcon_PikachuRockStar[] = INCBIN_U8("graphics/pokemon/pikachu/rock_star/icon.4bpp");
 const u8 gMonIcon_PikachuBelle[] = INCBIN_U8("graphics/pokemon/pikachu/belle/icon.4bpp");

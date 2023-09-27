@@ -1081,6 +1081,8 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_DECIDUEYE_HISUIAN] = _("Decidueye"),
 #endif
 
+    [SPECIES_WOOPER_PALDEAN] = _("Wooper"),
+
     // Cosplay Pikachu
     [SPECIES_PIKACHU_COSPLAY] = _("Pikachu"),
     [SPECIES_PIKACHU_ROCK_STAR] = _("Pikachu"),

@@ -1077,6 +1077,9 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
 #if P_GEN_7_POKEMON == TRUE
     [SPECIES_DECIDUEYE_HISUIAN] = sDecidueyeHisuianTeachableLearnset,
 #endif
+
+    [SPECIES_WOOPER_PALDEAN] = sWooperPaldeanTeachableLearnset,
+
     // Misc Forms
     // Cosplay Pikachu
     [SPECIES_PIKACHU_COSPLAY] = sPikachuTeachableLearnset,

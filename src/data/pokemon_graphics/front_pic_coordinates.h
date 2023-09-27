@@ -1081,6 +1081,9 @@ const struct MonCoords gMonFrontPicCoords[] =
 #if P_GEN_7_POKEMON == TRUE
     [SPECIES_DECIDUEYE_HISUIAN]            = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
 #endif
+
+    [SPECIES_WOOPER_PALDEAN]               = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
+
     // Misc Forms
     // Cosplay Pikachu
     [SPECIES_PIKACHU_COSPLAY]              = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  9 },

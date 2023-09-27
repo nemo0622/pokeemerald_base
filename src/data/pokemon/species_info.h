@@ -24334,6 +24334,29 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
 #endif
 
+    [SPECIES_WOOPER_PALDEAN] =
+    {
+        .baseHP        = 55,
+        .baseAttack    = 45,
+        .baseDefense   = 45,
+        .baseSpeed     = 15,
+        .baseSpAttack  = 25,
+        .baseSpDefense = 25,
+        .types = { TYPE_POISON, TYPE_GROUND},
+        .catchRate = 255,
+        .expYield = 42,
+        .evYield_HP    = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = { EGG_GROUP_WATER_1, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_POISON_POINT, ABILITY_WATER_ABSORB, ABILITY_UNAWARE},
+        .bodyColor = BODY_COLOR_BROWN,
+        .noFlip = FALSE,
+	    .flags = SPECIES_FLAG_HISUIAN_FORM,
+    },
+
     [SPECIES_PIKACHU_COSPLAY]   = COSPLAY_PIKACHU_SPECIES_INFO(FLIP),
     [SPECIES_PIKACHU_ROCK_STAR] = COSPLAY_PIKACHU_SPECIES_INFO(FLIP),
     [SPECIES_PIKACHU_BELLE]     = COSPLAY_PIKACHU_SPECIES_INFO(NO_FLIP),

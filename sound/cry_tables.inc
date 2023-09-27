@@ -1627,6 +1627,9 @@ gCryTable::
 .else
 	cry Cry_Unown
 .endif
+
+	cry Cry_Wooper
+
 	@ Misc Forms
 	@ Cosplay Pikachu
 	cry Cry_Pikachu
@@ -3787,6 +3790,9 @@ gCryTable_Reverse::
 .else
 	cry_reverse Cry_Unown
 .endif
+
+	cry_reverse Cry_Wooper
+
 	@ Misc Forms
 	@ Cosplay Pikachu
 	cry_reverse Cry_Pikachu

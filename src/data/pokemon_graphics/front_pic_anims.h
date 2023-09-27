@@ -10375,6 +10375,12 @@ static const union AnimCmd sAnim_DecidueyeHisuian_1[] =
 };
 #endif
 
+static const union AnimCmd sAnim_WooperPaldean_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_PikachuCosplay_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -11858,6 +11864,7 @@ SINGLE_ANIMATION(AvaluggHisuian);
 #if P_GEN_7_POKEMON == TRUE
 SINGLE_ANIMATION(DecidueyeHisuian);
 #endif
+SINGLE_ANIMATION(WooperPaldean);
 SINGLE_ANIMATION(PikachuCosplay);
 SINGLE_ANIMATION(PikachuRockStar);
 SINGLE_ANIMATION(PikachuBelle);
@@ -12984,6 +12991,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 #if P_GEN_7_POKEMON == TRUE
     [SPECIES_DECIDUEYE_HISUIAN] = sAnims_DecidueyeHisuian,
 #endif
+    [SPECIES_WOOPER_PALDEAN] = sAnims_WooperPaldean,
     [SPECIES_PIKACHU_COSPLAY] = sAnims_PikachuCosplay,
     [SPECIES_PIKACHU_ROCK_STAR] = sAnims_PikachuRockStar,
     [SPECIES_PIKACHU_BELLE] = sAnims_PikachuBelle,

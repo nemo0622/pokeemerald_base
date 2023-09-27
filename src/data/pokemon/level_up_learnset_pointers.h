@@ -1077,6 +1077,8 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
 #if P_GEN_7_POKEMON == TRUE
     [SPECIES_DECIDUEYE_HISUIAN] = sDecidueyeHisuianLevelUpLearnset,
 #endif
+
+    [SPECIES_WOOPER_PALDEAN] = sWooperPaldeanLevelUpLearnset,
     // Misc Forms
     // Cosplay Pikachu
     [SPECIES_PIKACHU_COSPLAY] = sPikachuLevelUpLearnset,

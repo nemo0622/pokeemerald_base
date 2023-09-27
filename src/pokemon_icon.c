@@ -1098,6 +1098,7 @@ const u8 *const gMonIconTable[] =
 #if P_GEN_7_POKEMON == TRUE
     [SPECIES_DECIDUEYE_HISUIAN] = gMonIcon_DecidueyeHisuian,
 #endif
+    [SPECIES_WOOPER_PALDEAN] = gMonIcon_WooperPaldean,
     [SPECIES_PIKACHU_COSPLAY] = gMonIcon_PikachuCosplay,
     [SPECIES_PIKACHU_ROCK_STAR] = gMonIcon_PikachuRockStar,
     [SPECIES_PIKACHU_BELLE] = gMonIcon_PikachuBelle,
@@ -2416,6 +2417,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_GOODRA_HISUIAN] = 2,
     [SPECIES_AVALUGG_HISUIAN] = 5,
     [SPECIES_DECIDUEYE_HISUIAN] = 0,
+    [SPECIES_WOOPER_PALDEAN] = 5,
     [SPECIES_PIKACHU_COSPLAY] = 2,
     [SPECIES_PIKACHU_ROCK_STAR] = 1,
     [SPECIES_PIKACHU_BELLE] = 0,

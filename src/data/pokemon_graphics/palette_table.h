@@ -1077,6 +1077,8 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
     SPECIES_PAL(DECIDUEYE_HISUIAN, gMonPalette_DecidueyeHisuian),
 #endif
 
+    SPECIES_PAL(WOOPER_PALDEAN, gMonPalette_WooperPaldean),
+
     SPECIES_PAL(PIKACHU_COSPLAY, gMonPalette_PikachuCosplay),
     SPECIES_PAL(PIKACHU_ROCK_STAR, gMonPalette_PikachuRockStar),
     SPECIES_PAL(PIKACHU_BELLE, gMonPalette_PikachuBelle),
