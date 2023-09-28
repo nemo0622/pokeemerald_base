@@ -5538,28 +5538,28 @@ const u8 gCetitanPokedexText[] = _(
     "of fat under its skin.");
 
 const u8 gAnnihilapePokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "When it's anger rose beyond a critical\n"
+    "point, this Pokémon gained power\n"
+    "that is unfettered by the limits of\n"
+    "its physical body.");
 
 const u8 gClodsirePokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "It lives at the bottom of ponds and\n"
+    "swamps. It will carry Wooper on its\n"
+    "back and ferry them across water\n"
+    "from one shore to the other.");
 
 const u8 gFarigirafPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "Now that the brain waves from the\n"
+    "head and tail are synced up, the\n"
+    "psychic power of this Pokémon is 10\n"
+    "times stronger than Girafarig's.");
 
 const u8 gDundunsparcePokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "This Pokémon uses its hard tail to\n"
+    "make its nest by boring holes deep\n"
+    "underground. The nest can reach\n"
+    "lengths of over six miles.");
 
 const u8 gKingambitPokedexText[] = _(
     "This species left the ocean and\n"

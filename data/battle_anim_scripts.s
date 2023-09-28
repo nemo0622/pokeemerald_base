@@ -14472,9 +14472,16 @@ Move_TIDY_UP::
 Move_POUNCE::
 Move_TRAILBLAZE::
 Move_CHILLING_WATER::
+
 Move_HYPER_DRILL::
+	goto Move_HORN_DRILL
+
 Move_TWIN_BEAM::
+	goto Move_SIGNAL_BEAM
+
 Move_RAGE_FIST::
+	goto Move_SHADOW_PUNCH
+
 Move_ARMOR_CANNON::
 	goto Move_FOCUS_BLAST
 

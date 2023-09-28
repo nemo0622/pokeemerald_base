@@ -11159,9 +11159,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_ANNIHILAPE] =
     {
-        .categoryName = _("Terra Whale"),
+        .categoryName = _("Rage Monkey"),
         .height = 12,
-        .weight = 450,
+        .weight = 560,
         .description = gAnnihilapePokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11171,9 +11171,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_CLODSIRE] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Spiny Fish"),
+        .height = 18,
+        .weight = 2230,
         .description = gClodsirePokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11183,9 +11183,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_FARIGIRAF] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Long Neck"),
+        .height = 32,
+        .weight = 1600,
         .description = gFarigirafPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11195,9 +11195,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_DUNDUNSPARCE] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Land Snake"),
+        .height = 36,
+        .weight = 392,
         .description = gDundunsparcePokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
