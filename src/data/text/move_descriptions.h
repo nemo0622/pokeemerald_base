@@ -3035,11 +3035,11 @@ static const u8 sShelterDescription[] = _(
 
 static const u8 sTripleArrowsDescription[] = _(
     "High critical hit ratio.\n"
-    "May lower Defense or flinch.");
+    "May lower flinch the opponent.");
 
 static const u8 sInfernalParadeDescription[] = _(
-    "Hurts a foe harder if it has\n"
-    "an ailment. May leave a burn.");
+    "Summons steaming spirits, leaves\n"
+    "a burn half the time.");
 
 static const u8 sCeaselessEdgeDescription[] = _(
     "High critical hit ratio. Sets\n"

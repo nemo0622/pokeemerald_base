@@ -9997,8 +9997,9 @@ const struct Item gItems[] =
         .price = 3000,
         .description = sLeadersCrestDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .flingPower = 30,
     },
 
     [ITEM_MALICIOUS_ARMOR] =

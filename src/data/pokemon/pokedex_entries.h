@@ -11207,9 +11207,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_KINGAMBIT] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Big Blade"),
+        .height = 20,
+        .weight = 1200,
         .description = gKingambitPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11219,9 +11219,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_GREAT_TUSK] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Paradox"),
+        .height = 22,
+        .weight = 3200,
         .description = gGreat_TuskPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11231,9 +11231,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SLITHER_WING] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Paradox"),
+        .height = 32,
+        .weight = 920,
         .description = gSlither_WingPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11243,9 +11243,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_IRON_TREADS] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Paradox"),
+        .height = 9,
+        .weight = 2400,
         .description = gIron_TreadsPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,

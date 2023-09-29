@@ -5562,28 +5562,28 @@ const u8 gDundunsparcePokedexText[] = _(
     "lengths of over six miles.");
 
 const u8 gKingambitPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "Only a Bisharp that stands above\n"
+    "all others in its vast army can\n"
+    "evolve into Kingambit. They grow to\n"
+    "command great armies themselves.");
 
 const u8 gGreat_TuskPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "This creature resembles a mysterious\n"
+    "Pokémon that, according to a\n"
+    "paranormal magazine, has lives since\n"
+    "ancient times.");
 
 const u8 gSlither_WingPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "This mysterious Pokémon has some\n"
+    "similarities to a creature that an\n"
+    "old book introduced as Slither Wing.\n"
+    "They seem to resemble Volcarona.");
 
 const u8 gIron_TreadsPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "This Pokémon closely resembles a\n"
+    "scientific weapon that a paranormal\n"
+    "magazine claimed was sent to this\n"
+    "planet by aliens.");
 
 const u8 gIron_MothPokedexText[] = _(
     "This species left the ocean and\n"

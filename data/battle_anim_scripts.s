@@ -14220,13 +14220,13 @@ Move_SHELL_SIDE_ARM_SPECIAL: @ Modified Snipe Shot, placeholder
 	end
 
 Move_MISTY_EXPLOSION::
-	end @to do:
+	goto Move_EXPLOSION
 
 Move_GRASSY_GLIDE::
-	end @to do:
+	goto Move_GRASS_PLEDGE
 
 Move_RISING_VOLTAGE::
-	end @to do:
+	goto Move_SPARK
 
 Move_TERRAIN_PULSE::
 	loadspritegfx ANIM_TAG_DRAGON_PULSE
@@ -14397,60 +14397,160 @@ Move_SNOWSCAPE::
 	end
 
 Move_WICKED_BLOW::
+	goto Move_SUCKER_PUNCH
+
 Move_SURGING_STRIKES::
+	goto Move_WATERFALL
+
 Move_THUNDER_CAGE::
+	goto Move_ELECTROWEB
+
 Move_DRAGON_ENERGY::
+	goto Move_OUTRAGE
+
 Move_FREEZING_GLARE::
+	goto Move_GLARE
+
 Move_FIERY_WRATH::
+	goto Move_OVERHEAT
+
 Move_THUNDEROUS_KICK::
+	goto Move_MEGA_KICK
+
 Move_GLACIAL_LANCE::
+	goto Move_ICE_BEAM
+
 Move_ASTRAL_BARRAGE::
+	goto Move_DRACO_METEOR
+
 Move_EERIE_SPELL::
+	goto Move_HEX
+
 Move_DIRE_CLAW::
+	goto Move_NIGHT_SLASH
+
 Move_PSYSHIELD_BASH::
+	goto Move_PSYCHO_CUT
+
 Move_POWER_SHIFT::
+	goto Move_POWER_TRICK
+
 Move_STONE_AXE::
+	goto Move_ROCK_WRECKER
+
 Move_SPRINGTIDE_STORM::
+	goto Move_HURRICANE
+
 Move_MYSTICAL_POWER::
+	goto Move_SPARKLY_SWIRL
+
 Move_RAGING_FURY::
+	goto Move_FLARE_BLITZ
+
 Move_WAVE_CRASH::
+	goto Move_WATERFALL
+
 Move_CHLOROBLAST::
+	goto Move_SOLAR_BEAM
+
 Move_MOUNTAIN_GALE::
+	goto Move_ROCK_CLIMB
+
 Move_VICTORY_DANCE::
+	goto Move_QUIVER_DANCE
+
 Move_HEADLONG_RUSH::
+	goto Move_CONTINENTAL_CRUSH
+
 Move_BARB_BARRAGE::
+	goto Move_POISON_JAB
+
 Move_ESPER_WING::
+	goto Move_WING_ATTACK
+
 Move_BITTER_MALICE::
+	goto Move_HEX
+
 Move_SHELTER::
+	goto Move_PROTECT
+
 Move_TRIPLE_ARROWS::
+	goto Move_THOUSAND_ARROWS
+
 Move_INFERNAL_PARADE::
+	goto Move_HEX
+
 Move_CEASELESS_EDGE::
+	goto Move_NIGHT_SLASH
+
 Move_BLEAKWIND_STORM::
+	goto Move_HURRICANE
+
 Move_WILDBOLT_STORM::
+	goto Move_HURRICANE
+
 Move_SANDSEAR_STORM::
+	goto Move_SAND_TOMB
+
 Move_LUNAR_BLESSING::
+	goto Move_WISH
+
 Move_TAKE_HEART::
+	goto Move_HEART_STAMP
+
 Move_TERA_BLAST::
+	goto Move_AURA_SPHERE
+
 Move_AXE_KICK::
+	goto Move_JUMP_KICK
+
 Move_LAST_RESPECTS::
+	goto Move_WISH
+
 Move_LUMINA_CRASH::
+	goto Move_DOUBLE_EDGE
+
 Move_ORDER_UP::
+	goto Move_NASTY_PLOT
+
 Move_JET_PUNCH::
+	goto Move_WATERFALL
+
 Move_SPICY_EXTRACT::
+	goto Move_WORK_UP
+
 Move_SPIN_OUT::
+	goto Move_TAKE_DOWN
+
 Move_POPULATION_BOMB::
+	goto Move_FURY_ATTACK
 
 Move_ICE_SPINNER::
 	goto Move_ICE_HAMMER
 
 Move_GLAIVE_RUSH::
+	goto Move_ICE_PUNCH
+
 Move_REVIVAL_BLESSING::
+	goto Move_WISH
+
 Move_SALT_CURE::
+	goto Move_ACID
+
 Move_TRIPLE_DIVE::
+	goto Move_WATERFALL
+
 Move_MORTAL_SPIN::
+	goto Move_RAPID_SPIN
+
 Move_DOODLE::
+	goto Move_SKETCH
+
 Move_FILLET_AWAY::
+	goto Move_BELLY_DRUM
+
 Move_KOWTOW_CLEAVE::
+	goto Move_SACRED_SWORD
 
 Move_FLOWER_TRICK::
 	goto Move_ASTONISH
@@ -14462,16 +14562,37 @@ Move_AQUA_STEP::
 	goto Move_AQUA_JET
 
 Move_RAGING_BULL::
+	goto Move_DOUBLE_EDGE
+
 Move_MAKE_IT_RAIN::
+	goto Move_PAY_DAY
+
 Move_RUINATION::
+	goto Move_CONFUSE_RAY
+
 Move_COLLISION_COURSE::
+	goto Move_ROCK_TOMB
+
 Move_ELECTRO_DRIFT::
+	goto Move_SPARK
+
 Move_SHED_TAIL::
+	goto Move_SUBSTITUTE
+
 Move_CHILLY_RECEPTION::
+	goto Move_POWDER_SNOW
+
 Move_TIDY_UP::
+	goto Move_AGILITY
+
 Move_POUNCE::
+	goto Move_TAKE_DOWN
+
 Move_TRAILBLAZE::
+	goto Move_GRASS_PLEDGE
+
 Move_CHILLING_WATER::
+	goto Move_SURF
 
 Move_HYPER_DRILL::
 	goto Move_HORN_DRILL

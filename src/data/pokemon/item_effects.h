@@ -568,6 +568,7 @@ const u8 *const gItemEffectTable[ITEMS_COUNT] =
     [ITEM_RAZOR_CLAW]         = gItemEffect_EvoItem,
     [ITEM_AUSPICIOUS_ARMOR]   = gItemEffect_EvoItem,
     [ITEM_MALICIOUS_ARMOR]    = gItemEffect_EvoItem,
+    [ITEM_LEADERS_CREST]      = gItemEffect_EvoItem,
     [ITEM_SCROLL_OF_DARKNESS] = gItemEffect_EvoItem,
     [ITEM_SCROLL_OF_WATERS]   = gItemEffect_EvoItem,
     [ITEM_BLACK_AUGURITE]     = gItemEffect_EvoItem,

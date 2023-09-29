@@ -3856,7 +3856,7 @@ static const u8 sGimmighoulCoinDesc[] = _(
 static const u8 sLeadersCrestDesc[] = _(
     "A shard of an old\n"
     "blade of some sort.\n"
-    "Held by Bisharp.");
+    "Promotes Bisharp.");
 
 static const u8 sMaliciousArmorDesc[] = _(
     "Armor inhabited by\n"
