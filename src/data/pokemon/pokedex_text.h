@@ -5586,28 +5586,28 @@ const u8 gIron_TreadsPokedexText[] = _(
     "planet by aliens.");
 
 const u8 gIron_MothPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "No records exist of this species being\n"
+    "caught. Data is lacking, but the\n"
+    "Pokémon's traits match up with an\n"
+    "object described in an old book.");
 
 const u8 gFrigibaxPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "This Pokémon lives in forests and\n"
+    "craggy areas. Using the power of\n"
+    "its dorsal fin, it cools the inside of\n"
+    "its nest like a refrigerator.");
 
 const u8 gArctibaxPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "Arctibax freezes the air around it,\n"
+    "protecting its face with an ice\n"
+    "mask and turning its dorsal fin into\n"
+    "a blade of ice.");
 
 const u8 gBaxcaliburPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "This Pokémon blasts cryogenic air\n"
+    "out from its mouth. This air can\n"
+    "instantly freeze even liquid-hot\n"
+    "lava.");
 
 const u8 gRoaring_MoonPokedexText[] = _(
     "This species left the ocean and\n"

@@ -4312,6 +4312,12 @@ const u16 gEggMoves[] = {
         MOVE_SPIT_UP,
         MOVE_STOCKPILE,
         MOVE_SWALLOW),
+
+    egg_moves(FRIGIBAX,
+        MOVE_AQUA_TAIL,
+        MOVE_DRAGON_RUSH,
+        MOVE_FREEZE_DRY,
+        MOVE_ICICLE_SPEAR),
 #endif
 
     egg_moves(RATTATA_ALOLAN,

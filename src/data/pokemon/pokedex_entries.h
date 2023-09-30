@@ -11255,9 +11255,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_IRON_MOTH] =
     {
-        .categoryName = _("Terra Whale"),
+        .categoryName = _("Paradox"),
         .height = 12,
-        .weight = 450,
+        .weight = 360,
         .description = gIron_MothPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11267,9 +11267,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_FRIGIBAX] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Ice Fin"),
+        .height = 5,
+        .weight = 170,
         .description = gFrigibaxPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11279,9 +11279,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_ARCTIBAX] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Ice Fin"),
+        .height = 8,
+        .weight = 300,
         .description = gArctibaxPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11291,9 +11291,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_BAXCALIBUR] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Ice Dragon"),
+        .height = 21,
+        .weight = 2100,
         .description = gBaxcaliburPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,

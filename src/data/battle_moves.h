@@ -13060,7 +13060,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_GLAIVE_RUSH] =
     {
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_GLAIVE_RUSH
+        .effect = EFFECT_HIT, // EFFECT_GLAIVE_RUSH
         .power = 120,
         .type = TYPE_DRAGON,
         .accuracy = 100,
