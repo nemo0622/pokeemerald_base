@@ -21899,7 +21899,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS},
-        .abilities = {ABILITY_HEATPROOF, ABILITY_HEATPROOF, ABILITY_HEATPROOF},
+        .abilities = {ABILITY_REGENERATOR, ABILITY_REGENERATOR, ABILITY_HEATPROOF},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },

@@ -18950,8 +18950,7 @@ static const struct LevelUpMove sPoltchageistLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sSinistchaLevelUpLearnset[] = {
-    // LEVEL_UP_MOVE( 0, MOVE_MATCHA_GOTCHA),
-    LEVEL_UP_MOVE( 0, MOVE_GIGA_DRAIN), // temporary replacement lol
+    LEVEL_UP_MOVE( 0, MOVE_MATCHA_GOTCHA),
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_WITHDRAW),
     LEVEL_UP_MOVE( 1, MOVE_STUN_SPORE),
