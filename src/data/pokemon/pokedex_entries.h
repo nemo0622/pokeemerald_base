@@ -11303,9 +11303,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_ROARING_MOON] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Paradox"),
+        .height = 20,
+        .weight = 3800,
         .description = gRoaring_MoonPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11315,9 +11315,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_IRON_VALIANT] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Paradox"),
+        .height = 14,
+        .weight = 350,
         .description = gIron_ValiantPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11327,9 +11327,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_POLTCHAGEIST] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Matcha"),
+        .height = 1,
+        .weight = 11,
         .description = gPoltchageistPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -11339,9 +11339,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SINISTCHA] =
     {
-        .categoryName = _("Terra Whale"),
-        .height = 12,
-        .weight = 450,
+        .categoryName = _("Matcha"),
+        .height = 2,
+        .weight = 22,
         .description = gSinistchaPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,

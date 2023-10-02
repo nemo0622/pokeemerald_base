@@ -5610,26 +5610,26 @@ const u8 gBaxcaliburPokedexText[] = _(
     "lava.");
 
 const u8 gRoaring_MoonPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "It is possible that this is the\n"
+    "creature listed as Roaring Moon\n"
+    "in an expedition journal that still\n"
+    "holds many mysteries.");
 
 const u8 gIron_ValiantPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "It's possible that this is the object\n"
+    "listed as Iron Valiant in a certain\n"
+    "expidition journal. Some say a mad\n"
+    "scientist invented this species.");
 
 const u8 gPoltchageistPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "Supposedly, the regrets of a tea\n"
+    "master who died before perfecting his\n"
+    "craft lingered in some matcha and\n"
+    "became a Pokémon.");
 
 const u8 gSinistchaPokedexText[] = _(
-    "This species left the ocean and\n"
-    "began to live on land a very long\n"
-    "time ago. It seems to be closely\n"
-    "related to Wailmer.");
+    "It lives inside a superb teacup that\n"
+    "was crafted by a potter of great\n"
+    "renown. Collectors positively adore\n"
+    "this Pokémon.");
 #endif
