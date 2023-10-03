@@ -908,6 +908,12 @@
 #define SPECIES_OVERQWIL 904
 #define SPECIES_ENAMORUS 905
 #define SPECIES_NULL 906
+// NOTE: When adding new species, remember that the follower system breaks
+// after 1024 Pokémon, including Alolan/Galarian/Hisuian forms!
+// With SPECIES_NULL = 906, the total Pokémon number is 1009, so
+// there is room for about 10 new fakemon species in any hack using
+// this base. Beyond that, you have to replace old Pokémon species I think,
+// sorry!
 
 // Megas
 #define SPECIES_VENUSAUR_MEGA                FORMS_START + 1
