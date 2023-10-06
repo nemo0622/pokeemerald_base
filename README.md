@@ -38,6 +38,7 @@ Note: All credit for this base goes to these creators!! I just did the merging a
 - Default "Fast" text speed
 - PC Access in PokéNav through "Condition" menu (only in Fly-enabled maps, so it's restricted in "dungeon" areas for balance)
 - Press Start in Bag menu to sort bag items!
+- HGSS-Style PokéDex by TheXaman! Looks fantastic
 
 ## Known Issues, Future Plans, & Credits!
 
@@ -58,7 +59,8 @@ FUTURE PLANS:
 
 CREDITS:
 - RHH Team for the pokeemerald Expansion project
-- aarant on Github for the base following Pokémon, lighting, and key item wheel code
+- [aarant](https://github.com/aarant/pokeemerald) for the base following Pokémon, lighting, and key item wheel code
+- [TheXaman](https://github.com/TheXaman/pokeemerald/tree/tx_pokedexPlus_hgss) for HGSS Pokédex
 - Generation 5 Overworld Sprites: 
     - Most compiled by [Pokegirl4ever](https://www.deviantart.com/pokegirl4ever/art/Completed-pokemon-Unova-overworlds-212553542) on DeviantArt
     - Emolga by [Wolfang62](https://www.deviantart.com/wolfang62/art/Emolga-Sprite-Overworld-833896154) on DeviantArt

@@ -334,6 +334,8 @@ static bool16 IsMonAllowedInPokemonJump(struct Pokemon *);
 static bool16 IsMonAllowedInDodrioBerryPicking(struct Pokemon *);
 static void Task_CancelParticipationYesNo(u8);
 static void Task_HandleCancelParticipationYesNoInput(u8);
+// static bool8 CanLearnTutorMove(u16, u8);
+// static u16 GetTutorMove(u8);
 static bool8 ShouldUseChooseMonText(void);
 static void SetPartyMonFieldSelectionActions(struct Pokemon *, u8);
 static u8 GetPartyMenuActionsTypeInBattle(struct Pokemon *);
@@ -2071,6 +2073,21 @@ static u8 CanTeachMove(struct Pokemon *mon, u16 move)
         return CAN_LEARN_MOVE;
 }
 
+// static u16 GetTutorMove(u8 tutor)
+// {
+//     return gTutorMoves[tutor];
+// }
+
+bool8 CanLearnTutorMove(u16 species, u8 tutor)
+{
+    // if (sTutorLearnsets[species] & (1 << tutor))
+    //     return TRUE;
+    // else
+    //     return FALSE;
+
+    return FALSE; // unimplemented for now lol
+}
+
 static void InitPartyMenuWindows(u8 layout)
 {
     u8 i;
@@ -2797,6 +2814,8 @@ static void CursorCb_Summary(u8 taskId)
 void ChangePokemonNickname(void);
 static void CursorCb_Nickname(u8 taskId)
 {
+    RemoveFollowingPokemon();
+    
     PlaySE(SE_SELECT);
     gSpecialVar_0x8004 = gPartyMenu.slotId;
     sPartyMenuInternal->exitCallback = ChangePokemonNickname;
@@ -4092,7 +4111,7 @@ static void ShowOrHideHeldItemSprite(u16 item, struct PartyMenuBox *menuBox)
 
 void LoadHeldItemIcons(void)
 {
-    LoadSpriteSheet(&sSpriteSheet_HeldItem);
+    LoadSpriteSheet(&gSpriteSheet_HeldItem);
     LoadSpritePalette(&sSpritePalette_HeldItem);
 }
 
@@ -6994,4 +7013,9 @@ void IsLastMonThatKnowsSurf(void)
         if (AnyStorageMonWithMove(move) != TRUE)
             gSpecialVar_Result = TRUE;
     }
+}
+
+u16 GetTMHMMoves(u16 position)
+{
+    return sTMHMMoves[position];
 }
