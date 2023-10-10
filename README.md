@@ -34,6 +34,7 @@ Note: All credit for this base goes to these creators!! I just did the merging a
 - Pace of battle slightly improved (mashing A decreases lengthy delays)
 - Press A when viewing clock to change the time
 - Fishing is always successful 
+- Snow weather works in overworld
 - Change player direction while moving, like in later generations
 - Default "Fast" text speed
 - PC Access in PokéNav through "Condition" menu (only in Fly-enabled maps, so it's restricted in "dungeon" areas for balance)
